@@ -1,4 +1,10 @@
-#OMNIABASE is a multirepresentational framework for structural analysis.
+
+
+#OMNIABASE
+
+
+
+OMNIABASE is a multirepresentational framework for structural analysis.
 
 It does not replace existing knowledge.
 It tests whether a single representation is structurally sufficient.
@@ -379,7 +385,7 @@ A newcomer should read the ecosystem in this order:
 7. Pre-Deployment-Structural-Gate
 
 
-8. omnia-limit
+8. OMNIA-LIMIT
 
 
 
@@ -515,11 +521,4 @@ Cross-Representation Translation
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
-
-Correzione netta finale: questa versione è già buona, ma non ancora ottima.
-Il punto debole residuo è uno solo: c’è ancora un po’ di ripetizione tra Core Claim, What OMNIABASE Is, What OMNIABASE Is Not e Summary.
-
-Il commit giusto ora è:
-
-Refine README structure and add visible overview plus minimal executable core
 
