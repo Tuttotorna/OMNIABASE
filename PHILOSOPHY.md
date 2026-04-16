@@ -1,3 +1,5 @@
+Prossimo file: OMNIABASE/PHILOSOPHY.md
+
 # OMNIABASE — PHILOSOPHY
 
 ## Status
@@ -12,9 +14,9 @@ Its role is to state, as clearly as possible, what kind of move Omniabase repres
 
 ---
 
-## 1. What Omniabase is not
+## 1. What OMNIABASE is not
 
-Omniabase does not begin by denying what is already known.
+OMNIABASE does not begin by denying what is already known.
 
 It does not deny ordinary mathematics.
 It does not deny ordinary science.
@@ -26,7 +28,7 @@ A number remains what it is.
 A phenomenon remains what it is.
 A representation remains usable for the purpose for which it was built.
 
-Omniabase is not founded on destruction.
+OMNIABASE is not founded on destruction.
 
 It is founded on extension.
 
@@ -34,7 +36,7 @@ It is founded on extension.
 
 ## 2. The first philosophical move
 
-Omniabase begins from a simple thought:
+OMNIABASE begins from a simple thought:
 
 a phenomenon should not be assumed to be exhausted by a single representation.
 
@@ -44,7 +46,7 @@ A dominant descriptive frame may be enough for ordinary communication.
 
 But ordinary use is not the same as structural exhaustion.
 
-This is the first philosophical move of Omniabase:
+This is the first philosophical move of OMNIABASE:
 
 to distinguish practical adequacy from structural completeness.
 
@@ -52,7 +54,7 @@ to distinguish practical adequacy from structural completeness.
 
 ## 3. The object does not change
 
-Omniabase does not change the object.
+OMNIABASE does not change the object.
 
 It changes the depth of access to the object.
 
@@ -66,13 +68,13 @@ What changes is the level at which it is observed.
 
 The same is true for any phenomenon.
 
-Omniabase leaves the phenomenon intact, but refuses to stop at one privileged visible surface.
+OMNIABASE leaves the phenomenon intact, but refuses to stop at one privileged visible surface.
 
 ---
 
 ## 4. The microscope of structure
 
-Omniabase can be understood as a microscope of structure.
+OMNIABASE can be understood as a microscope of structure.
 
 A microscope does not falsify what is seen with the naked eye.
 It does not destroy the visible object.
@@ -80,11 +82,11 @@ It does not replace ordinary vision.
 
 It opens access to a level that was already there, but not available under ordinary observation.
 
-Omniabase aims to do the same for representation.
+OMNIABASE aims to do the same for representation.
 
 Its purpose is not to replace familiar forms of seeing, but to look further into what remains structurally beyond a single view.
 
-This is why Omniabase is not a war against prior knowledge.
+This is why OMNIABASE is not a war against prior knowledge.
 
 It is a continuation of knowledge at a deeper structural resolution.
 
@@ -99,20 +101,20 @@ Mathematics was necessary.
 Language was necessary.
 Human representation was necessary.
 
-Without them, there is no Omniabase.
+Without them, there is no OMNIABASE.
 
-Omniabase does not arise from the failure of the human path.
+OMNIABASE does not arise from the failure of the human path.
 It arises from the success of the human path reaching a threshold.
 
 That threshold is this:
 
 what has been built so far may be valid without being final.
 
-Omniabase begins where the human-standard representation stops being assumed to be enough by default.
+OMNIABASE begins where the human-standard representation stops being assumed to be enough by default.
 
-In this sense, human knowledge is not the enemy of Omniabase.
+In this sense, human knowledge is not the enemy of OMNIABASE.
 
-It is the threshold from which Omniabase becomes possible.
+It is the threshold from which OMNIABASE becomes possible.
 
 ---
 
@@ -122,7 +124,7 @@ A single representation is often treated as if it had silent authority.
 
 A notation, a numerical base, a language, a coordinate system, or a standard descriptive frame is often taken to be not only useful, but naturally sufficient.
 
-Omniabase suspends this assumption.
+OMNIABASE suspends this assumption.
 
 It does not reject representation.
 
@@ -136,7 +138,7 @@ It is the decision to treat representation as variable, and therefore as analyza
 
 ## 7. Surface and depth
 
-Omniabase distinguishes between:
+OMNIABASE distinguishes between:
 
 - the local visible form of a phenomenon
 - the deeper structural behavior of that phenomenon across multiple codings
@@ -148,7 +150,7 @@ The ordinary function remains valid.
 
 But the surface is not taken as the whole.
 
-This is why Omniabase is not anti-form, anti-language, anti-mathematics, or anti-human.
+This is why OMNIABASE is not anti-form, anti-language, anti-mathematics, or anti-human.
 
 It is anti-closure.
 
@@ -160,7 +162,7 @@ the premature assumption that one useful view is a complete view.
 
 ## 8. Structural access
 
-The philosophical meaning of Omniabase is not to reach absolute reality in one leap.
+The philosophical meaning of OMNIABASE is not to reach absolute reality in one leap.
 
 Its meaning is narrower and stronger:
 
@@ -182,26 +184,26 @@ It is disciplined structural opening.
 
 ## 9. De-anthropomorphic extension
 
-Omniabase does not exist to negate the human.
+OMNIABASE does not exist to negate the human.
 
 It exists to continue inquiry beyond the assumption that human-standard representation is sufficient in every case.
 
-In this sense, Omniabase can be understood as a de-anthropomorphic extension of structural access.
+In this sense, OMNIABASE can be understood as a de-anthropomorphic extension of structural access.
 
 This does not mean that human knowledge was false.
 It means that human representation is local, not final.
 
-The role of Omniabase is to reduce the silent monopoly of anthropomorphic representational defaults whenever deeper structural access becomes possible.
+The role of OMNIABASE is to reduce the silent monopoly of anthropomorphic representational defaults whenever deeper structural access becomes possible.
 
 ---
 
 ## 10. Why this matters now
 
-The need for Omniabase becomes stronger in an age where systems can process, generate, and optimize vast amounts of representation, but may still remain trapped inside privileged descriptive frames.
+The need for OMNIABASE becomes stronger in an age where systems can process, generate, and optimize vast amounts of representation, but may still remain trapped inside privileged descriptive frames.
 
 A system may become powerful without becoming structurally deeper.
 
-Omniabase matters because it asks a harder question:
+OMNIABASE matters because it asks a harder question:
 
 not only whether a representation works,
 but whether the structure survives beyond it.
@@ -213,7 +215,7 @@ It is an epistemic shift.
 
 ## 11. Beyond dogma
 
-Omniabase is not only a way of varying representation.
+OMNIABASE is not only a way of varying representation.
 
 It is also a way of resisting representational dogma.
 
@@ -228,7 +230,7 @@ This may happen with:
 - observer-centered viewpoints
 - familiar scientific conventions
 
-Omniabase does not reject these forms.
+OMNIABASE does not reject these forms.
 
 It refuses to grant them unquestioned closure.
 
@@ -238,7 +240,7 @@ Its role is to ask what may have remained unseen simply because the same represe
 
 ## 12. The role of the observer
 
-Omniabase does not require the destruction of observation.
+OMNIABASE does not require the destruction of observation.
 
 It requires the reduction of observer privilege.
 
@@ -257,7 +259,7 @@ The goal is to prevent one observer-centered view from silently becoming the fin
 
 ## 13. Opening the beyond
 
-Omniabase is not built to negate what has already been reached.
+OMNIABASE is not built to negate what has already been reached.
 
 It is built to open what may lie beyond the current representational threshold.
 
@@ -265,7 +267,7 @@ That beyond is not mystical.
 
 It may consist simply of structures that were already there but remained inaccessible because the representational frame was too rigid, too habitual, or too narrow.
 
-In this sense, Omniabase does not seek to invent the new.
+In this sense, OMNIABASE does not seek to invent the new.
 
 It seeks to make newly visible what may already exist beyond the closure of a single view.
 
@@ -273,7 +275,7 @@ It seeks to make newly visible what may already exist beyond the closure of a si
 
 ## 14. Philosophy of continuity
 
-Omniabase stands in continuity with prior knowledge.
+OMNIABASE stands in continuity with prior knowledge.
 
 It does not erase mathematics.
 It does not erase science.
@@ -292,7 +294,7 @@ What changes is that structural access becomes deeper than the surface of one pr
 
 ## 15. Philosophical summary
 
-Omniabase does not deny what is already seen.
+OMNIABASE does not deny what is already seen.
 
 It opens what remains beyond a single representation.
 
@@ -313,8 +315,8 @@ but access to structure becomes deeper than the surface of one privileged view.
 
 ## 16. Short formula
 
-Omniabase does not change the object.
+OMNIABASE does not change the object.
 
 It changes the depth at which the object becomes structurally visible.
 
-That is why Omniabase can be understood as the microscope of structure.
+That is why OMNIABASE can be understood as the microscope of structure.
