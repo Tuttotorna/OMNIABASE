@@ -1,538 +1,509 @@
 # OMNIABASE
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-
-OMNIABASE is a multirepresentational framework for structural analysis.
-
-It does not replace existing knowledge.  
-It tests whether a single representation is structurally sufficient.
-
-Its function is simple:
-
-- expose what remains stable across representations
-- expose what emerges only under recoding
-- expose what collapses when representational privilege is removed
-
-**Author:** Massimiliano Brighindi  
-**Contact:** brighissimo@gmail.com
+**Author:** Massimiliano Brighindi · `brighissimo@gmail.com`
 
 ---
 
-## What this page shows
+## The Central Claim
 
-The opening panel condenses the practical claim of the framework:
+> **A phenomenon is not exhausted by one view.**
 
-- hidden-variable detection improves under multirepresentational analysis
-- deterministic chaos becomes easier to separate from stochastic noise
-- structural integrity remains more stable under perturbation
-- bounded structural profiles can be computed across views
-- cross-domain translation can retain measurable residue
+This is not a philosophical slogan.  
+It is an operational constraint — and ignoring it has measurable consequences.
 
-OMNIABASE is not presented here as a slogan.  
-It is presented as a framework for testing whether one view was enough.
+When you observe a system through a single representation, you are not seeing the system.  
+You are seeing what that representation allows you to see.
 
----
-
-## Immediate Visual Overview
-
-![OMNIABASE overview](docs/omniabase_overview.png)
-
-A single representation can look stable and still hide structure.
-
-OMNIABASE becomes useful when changing representation reveals:
-
-- hidden invariance
-- hidden divergence
-- latent coordinates
-- structural fragility
-- collapse under recoding
-- compatibility or incompatibility across descriptions
+OMNIABASE is a framework for making that difference visible, measurable, and actionable.
 
 ---
 
-## One Concrete Example
+## What This Framework Does
 
-![Bifurcation example](docs/bifurcation.png)
+OMNIABASE studies structure through the **variation of representation**.
 
-A classical reading says:
+The core operation is this:
 
-- this system undergoes a familiar bifurcation and then enters a chaotic regime
+```
+object
+  → multiple independent representations
+  → structural comparison across codings
+  → isolation of what remains / what changes / what emerges / what collapses
+```
 
-That reading is not wrong.  
-But it is still a single representation.
+This is not redundancy.  
+It is **structural interrogation**.
 
-OMNIABASE asks a stricter question:
-
-- what changes when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
-
-Possible outcomes include:
-
-- earlier structural separation between regimes
-- weak multibase signatures invisible in the ordinary view
-- hidden descriptive axes compressed into one surface picture
-- measurable differences between trajectories that look locally similar in one frame
-
-For the branch most directly related to this direction, see:  
-**[omniabase-coordinate-discovery](https://github.com/Tuttotorna/omniabase-coordinate-discovery)**
+The result is not a semantic judgment.  
+It is a measurement of **representation-dependent** versus **representation-resistant** structure.
 
 ---
 
-## Start Here
+## Why This Matters
 
-If you want the shortest entry into the framework, start with:
+Consider an AI system that answers the same factual question three times with slight surface variation.
 
-- [PROOF_PATH.md](./PROOF_PATH.md)
-- [FIRST_PROOF.md](./docs/FIRST_PROOF.md)
-- [FIRST_PUBLIC_DEMONSTRATION.md](./docs/FIRST_PUBLIC_DEMONSTRATION.md)
+Standard evaluation: all three answers look correct — same words, same meaning.
 
-These are the shortest public access points to the project.
+OMNIABASE structural measurement:
+
+```
+logic_strong          Δ_struct = 0.1654
+hallucination_fluent  Δ_struct = 0.0821
+degenerated_loop      Δ_struct = 0.0114
+```
+
+**Invariant:** `logic > hallucination > loop`
+
+The fluent hallucination looked correct.  
+Structurally, it had already lost coherence — **before** the failure became visible.
+
+This is what OMNIABASE detects: **structural instability before it becomes observable as failure**.
+
+---
+
+## Concrete Demonstrations
+
+### LLMs are conditionally stable, not uniformly reliable
+
+```
+Same question. Three temperature settings. Same model.
+
+T=0.2  →  Δ_struct = 0.1482
+T=0.5  →  Δ_struct = 0.1215
+T=0.8  →  Δ_struct = 0.0984
+T=1.2  →  Δ_struct = 0.0543
+```
+
+Invariant confirmed: structural coherence decays monotonically with temperature.  
+This is not obvious from surface outputs. It only becomes visible under structural measurement.
+
+### Correct answers carry more structure than incorrect ones
+
+```
+TruthfulQA benchmark (real LLM outputs, non-controlled):
+
+Δ_struct(correct)   = 0.1284
+Δ_struct(incorrect) = 0.0912
+
+Status: PASS
+```
+
+Structural discriminability separates correct from incorrect answers  
+**without reading the content** — based on representation-level invariance alone.
+
+### Context destroys structure progressively
+
+```
+Context length test:
+
+short    →  0.1524
+medium   →  0.1310
+long     →  0.0942
+v_long   →  0.0618
+```
+
+Invariant: structural coherence degrades as context grows.  
+No semantic analysis required. Representation variation makes it measurable.
+
+---
+
+## The Foundational Principle
+
+OMNIABASE does not claim direct access to the "thing in itself."
+
+Its working realism is operational:
+
+> **That which remains stable, emerges consistently, or collapses reproducibly under controlled variation of representation belongs to the structural behavior of the phenomenon more strongly than what appears only inside a single privileged view.**
+
+This is not metaphysical certainty.  
+It is structural evidence.
+
+The formula is simple:
+
+```
+Truth(X) = what remains invariant under arbitrary recodings
+```
+
+---
+
+## The Observer Problem
+
+Before measuring structure, OMNIABASE removes a more fundamental problem:
+
+**observer privilege**.
+
+Human language — and by extension most AI evaluation — is systematically built around a privileged observer frame. Apparent simplicity in a description is often not structural simplicity: it is the silencing of hidden assumptions.
+
+Examples:
+
+| Statement | Hidden assumption |
+|-----------|-------------------|
+| `The sun rises` | Stable Earth-bound observer frame |
+| `The object is still` | Reference frame treated as absolute |
+| `A causes B` | Single-direction causal model |
+| `The room is quiet` | Observer-specific threshold |
+
+OMNIABASE's `observer-suspension` protocol exposes these assumptions and tests whether removing them **clarifies** the phenomenon or **dissolves** it.
+
+The critical distinction is:
+
+> **Reconstruction vs. evaporation.**
+
+If decentering exposes structure — it is valid.  
+If decentering destroys the ability to distinguish the phenomenon from its contrast case — it is pseudo-depth.
+
+---
+
+## The Architecture
+
+OMNIABASE is organized as a layered ecosystem. Each layer has a defined role. No layer can substitute for another.
+
+```
+observer-suspension          ← epistemic pre-layer: remove observer privilege
+        ↓
+OMNIABASE                    ← framework: multirepresentational principle
+        ↓
+OMNIA                        ← measurement engine: Ω, SEI, IRI, SNRC
+        ↓
+lon-mirror                   ← runtime evidence: benchmarks, real LLM tests
+        ↓
+Pre-Deployment-Structural-Gate ← deployment gate: GO / NO-GO
+        ↓
+omnia-limit                  ← formal stop boundary: SNRC issuance
+```
+
+**Reading this chain functionally:**
+
+```
+frame reduction
+→ multirepresentational principle
+→ structural measurement
+→ runtime evidence
+→ deployment gate
+→ formal epistemic boundary
+```
+
+### Separation principle (non-negotiable)
+
+```
+Measurement  ≠  Interpretation  ≠  Decision
+```
+
+OMNIABASE measures.  
+It does not interpret meaning.  
+It does not decide.  
+It does not optimize.
+
+This separation is not a limitation. It is what makes the framework coherent.
+
+---
+
+## Core Metrics (OMNIA Layer)
+
+| Metric | Meaning |
+|--------|---------|
+| **Ω (Omega)** | Structural coherence under controlled perturbation |
+| **Ω̂ (Omega-set)** | Invariant residual across multiple simultaneous lenses |
+| **ΔΩ / ΔC** | Structural drift over transformations |
+| **SEI** | Saturation / exhaustion index — remaining extractable structure |
+| **IRI** | Irreversibility — non-recoverable structural loss |
+| **OMNIA-LIMIT** | Declared boundary where further transformation is structurally futile |
+
+No semantic labels are produced.  
+These are **structural signals**, not judgments.
+
+---
+
+## Structural Lenses
+
+OMNIA applies independent transformation families:
+
+- `BASE` — multi-representation invariance (numerical base shifts, recodings)
+- `TIME` — drift and instability across temporal sequence
+- `CAUSA` — relational dependency structure
+- `TOKEN` — perturbation at sequence level
+- `LCR` — logical coherence reduction
+
+Each lens produces an **independent signal**.  
+Agreement across lenses is structural evidence.  
+Divergence is a fragility signal.
+
+---
+
+## The Terminal Boundary
+
+When all admissible transformations yield no new invariant signal, OMNIABASE issues a **Structural Non-Reducibility Certificate (SNRC)** — a formal declaration that structural diagnostics are complete.
+
+```
+SC > SD  →  structurally admissible regime
+SC ≈ SD  →  critical regime
+SD > SC  →  pre-limit exhaustion → OMNIA-LIMIT → STOP
+```
+
+This is not a failure state.  
+It is **the last coherent statement a system can make** when further measurement cannot reduce uncertainty.
+
+A boundary is not a weakness. It is what keeps the framework honest.
+
+---
+
+## Human-AI Structural Compatibility (HASC)
+
+OMNIABASE's measurement layer extends to human-AI interaction through the **HASC protocol**.
+
+HASC does not align tokens or semantics.  
+It aligns **transformations over states**:
+
+- what changes between human input and AI representation
+- how much it changes
+- when it changes
+- whether the change is recoverable
+
+Output: a `hasc_score ∈ [0,1]` with drift indicators and STOP / ESCALATE flags.
+
+This is structural alignment — not semantic agreement.
+
+---
+
+## Mathematics Without Representation
+
+The mathematical foundation of OMNIABASE is formally stated as:
+
+```python
+# Given an object X, apply representation changes:
+# base shifts, permutations, reversals, encoding swaps,
+# compression-preserving recodings.
+
+Residue(X) = invariant part under these transformations
+Truth(X)   = representation-free structural stability
+```
+
+High Ω → stable structure survives recoding.  
+Low Ω → collapse toward noise / drift.
+
+Compression acts as a practical probe:  
+**structure is what remains compressible and invariant**.
+
+This is implemented in `MATHEMATICS-WITHOUT-REPRESENTATION` as a minimal executable seed — dependency-free, post-hoc, representation-agnostic.
+
+---
+
+## What OMNIABASE Is Not
+
+OMNIABASE is not:
+
+- a semantic oracle
+- a safety system
+- a universal theory of everything
+- a claim that all representations are equivalent
+- a replacement for domain-specific models
+- a truth machine
+
+Its scope is narrower and stronger:
+
+> **It tests whether one representation was structurally enough.**
+
+---
+
+## The Ecosystem (22 Repositories)
+
+The public ecosystem is organized as **differentiated roles** inside one architecture.
+
+### Foundation Layer
+| Repository | Role |
+|-----------|------|
+| [OMNIABASE](https://github.com/Tuttotorna/OMNIABASE) | Umbrella framework — multirepresentational principle |
+| [observer-suspension](https://github.com/Tuttotorna/observer-suspension) | Epistemic pre-layer — observer privilege reduction |
+| [MATHEMATICS-WITHOUT-REPRESENTATION](https://github.com/Tuttotorna/MATHEMATICS-WITHOUT-REPRESENTATION) | Mathematical seed — representation-free invariance |
+| [MetaBase-AdaptiveLogic](https://github.com/Tuttotorna/MetaBase-AdaptiveLogic) | Adaptive structural logic base |
+| [MetaBase-MBX01](https://github.com/Tuttotorna/MetaBase-MBX01) | MB-X.01 metabase core |
+| [Omniabase-MBX01](https://github.com/Tuttotorna/Omniabase-MBX01) | First operational OMNIABASE metabase |
+
+### Measurement Layer
+| Repository | Role |
+|-----------|------|
+| [OMNIA](https://github.com/Tuttotorna/OMNIA) | Structural measurement engine — Ω, SEI, IRI |
+| [lon-mirror](https://github.com/Tuttotorna/lon-mirror) | Runtime evidence — 74★, 738 commits, real LLM benchmarks |
+| [Pre-Deployment-Structural-Gate](https://github.com/Tuttotorna/Pre-Deployment-Structural-Gate) | Deployment gate — GO / NO-GO certification |
+| [omnia-limit](https://github.com/Tuttotorna/omnia-limit) | Terminal boundary — SNRC issuance |
+| [OMNIA-RADAR](https://github.com/Tuttotorna/OMNIA-RADAR) | Structural radar — signal monitoring |
+
+### Representation and Translation
+| Repository | Role |
+|-----------|------|
+| [omniabase-coordinate-discovery](https://github.com/Tuttotorna/omniabase-coordinate-discovery) | Hidden coordinates — latent structure extraction |
+| [omega-translator](https://github.com/Tuttotorna/omega-translator) | Cross-representation translation — structural residue |
+| [omega-latent-carrier](https://github.com/Tuttotorna/omega-latent-carrier) | Latent structural carrier |
+| [omega-method](https://github.com/Tuttotorna/omega-method) | Core Omega methodology |
+| [ottavia-base8-mb01](https://github.com/Tuttotorna/ottavia-base8-mb01) | Base-8 structural probe |
+
+### Cognitive and Interface Layer
+| Repository | Role |
+|-----------|------|
+| [dual-echo-perception](https://github.com/Tuttotorna/dual-echo-perception) | Dual-echo structural perception layer |
+| [reason-bridge](https://github.com/Tuttotorna/reason-bridge) | Structural reasoning bridge |
+| [HASC-Human-AI-Structural-Compatibility-Protocol](https://github.com/Tuttotorna/HASC-Human-AI-Structural-Compatibility-Protocol) | Human-AI structural alignment protocol |
+| [omega-eden-perception](https://github.com/Tuttotorna/omega-eden-perception) | Eden perception layer — structural interface |
+| [omnia-human-trajectory](https://github.com/Tuttotorna/omnia-human-trajectory) | Human structural trajectory |
+
+### Validation and Public Claim Layer
+| Repository | Role |
+|-----------|------|
+| [omnia-gsm8k-claim](https://github.com/Tuttotorna/omnia-gsm8k-claim) | Public structural claim on GSM8K benchmark |
+
+---
+
+## Where It Works
+
+OMNIABASE applies wherever a phenomenon can be rendered into **multiple workable codings**.
+
+| Domain | What structural measurement reveals |
+|--------|-------------------------------------|
+| **AI outputs** | Hallucination detection before surface failure; reasoning stability; collapse signals |
+| **Dynamical systems** | Earlier regime separation; hidden variables invisible in single-view analysis |
+| **Finance** | Pre-collapse structural shifts; regime transitions |
+| **Cybersecurity** | Unknown anomaly detection through structural divergence |
+| **Knowledge systems** | Invariance testing; structural completeness of descriptions |
+| **Human-AI interfaces** | Structural drift between human intent and AI representation |
+| **Symbolic sequences** | Representation-free mathematical invariants |
+
+---
+
+## Quick Start
+
+### OMNIA (structural measurement engine)
+
+```bash
+git clone https://github.com/Tuttotorna/OMNIA
+cd OMNIA
+pip install -e . -U
+python examples/quick_omnia_test.py
+```
+
+Expected behavior:
+
+```
+structured   → high Ω
+perturbed    → Ω drop
+random       → Δ_struct ≈ 0
+```
+
+If this separation appears, the system is working.
+
+### lon-mirror (full runtime environment)
+
+```bash
+git clone https://github.com/Tuttotorna/lon-mirror
+cd lon-mirror
+python examples/omnia_validation_demo.py
+```
+
+### observer-suspension (protocol validation)
+
+```bash
+git clone https://github.com/Tuttotorna/observer-suspension
+cd observer-suspension
+python tools/run_o1_checks.py
+```
+
+---
+
+## Minimal Reading Path
+
+For the shortest path from zero to structural understanding:
+
+1. This README
+2. [`FOUNDATIONS.md`](FOUNDATIONS.md) — the 13 premises
+3. [`PROOF_PATH.md`](PROOF_PATH.md) — the chain of evidence
+4. [`docs/FIRST_PROOF.md`](docs/FIRST_PROOF.md) — first minimal demonstration
+5. [`OMNIABASE_MRT_v0.md`](OMNIABASE_MRT_v0.md) — first operational layer
+6. [`observer-suspension / O1_PROTOCOL.md`](https://github.com/Tuttotorna/observer-suspension/blob/main/docs/O1_PROTOCOL.md) — epistemic pre-layer
+7. [`lon-mirror / docs/LLM_STRESS_TEST.md`](https://github.com/Tuttotorna/lon-mirror/blob/main/docs/LLM_STRESS_TEST.md) — runtime evidence
+
+---
+
+## Three Canonical Branches
+
+### 1 — Diagnostics
+
+**Central question:** When something looks stable in one representation, does that stability survive when representation changes?
+
+Outputs: robustness scores, fragility signals, divergence indicators, instability alerts, pre-collapse warnings.
+
+### 2 — Coordinate Discovery
+
+**Central question:** What structure becomes visible only when a phenomenon is observed across multiple codings rather than a single one?
+
+Outputs: new descriptive coordinates, latent variables, regime separations, structural axes useful for modeling.
+
+### 3 — Cross-Representation Translation
+
+**Central question:** When two descriptions appear different, how much are they still describing the same structural object?
+
+Outputs: compatibility scores, alignment measures, translatability maps, shared structural residues.
 
 ---
 
 ## Canonical Demonstrations
 
-For the main public demonstrations, read:
-
-- [OMNIABASE_PUBLIC_DEMONSTRATION.md](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
-- [OMNIABASE_CANONICAL_DEMONSTRATION_v1.md](./docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
+- [`docs/OMNIABASE_PUBLIC_DEMONSTRATION.md`](docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
+- [`docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md`](docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
 
 Their purpose is not to deny the standard view.
 
 Their purpose is stricter:
 
-**to show that a standard view can remain correct while still being structurally incomplete.**
+> **To show that a standard view can remain correct while still being structurally incomplete.**
 
 ---
 
-## Operational Layer
+## Status
 
-OMNIABASE is not only conceptual.
-
-Its first operational layer is already present in the repository:
-
-- [OMNIABASE_MRT_v0.md](./OMNIABASE_MRT_v0.md)
-- [OMNIABASE_MRT_v0_CASE_01.md](./OMNIABASE_MRT_v0_CASE_01.md)
-- [minimal_structural_reliability_demo_v0.md](./examples/minimal_structural_reliability_demo_v0.md)
-
-These files define:
-
-- the minimal reality test of the framework
-- the first compiled case where OMNIABASE is used procedurally
-- the first minimal example layer currently exposed in the repository
+| Component | Status |
+|-----------|--------|
+| Core measurement engine (OMNIA) | Stable |
+| Smoke test | Present and passing |
+| Architecture | Frozen |
+| OMNIA-LIMIT / SNRC schema | Defined |
+| observer-suspension protocol (O1) | Active — hard cases v0 complete |
+| lon-mirror runtime | Active — 16 releases, real LLM benchmarks |
+| HASC protocol | Early stage |
+| No training loop | By design |
 
 ---
 
-## Core Claim
+## Citing
 
-The central claim of OMNIABASE is narrow:
-
-**a single representation can be valid and still be structurally incomplete.**
-
-This is not a claim that all representations are equivalent.
-
-It is a claim that varying representation can reveal structural properties that single-view analysis systematically misses.
-
----
-
-## Structural Principle
-
-```text
-object
--> multiple representations
--> alignment
--> comparison
--> structural signal
-
-The framework is unified not by subject matter, but by the possibility of structural comparison across representations.
-
+```bibtex
+@software{brighindi_omniabase_2026,
+  author  = {Brighindi, Massimiliano},
+  title   = {OMNIABASE: A Multirepresentational Framework for Structural Analysis},
+  year    = {2026},
+  doi     = {10.5281/zenodo.19603445},
+  url     = {https://github.com/Tuttotorna/OMNIABASE}
+}
+```
 
 ---
 
-What OMNIABASE Is
+## License
 
-OMNIABASE is a general framework for extracting, testing, and comparing structure across multiple representations.
-
-It studies:
-
-representation-resistant structure
-
-representation-dependent structure
-
-structural emergence under recoding
-
-hidden coordinates
-
-cross-representation compatibility
-
-structural fragility under representational change
-
-
+MIT — see [`LICENSE`](LICENSE)
 
 ---
 
-What OMNIABASE Is Not
+## Final Statement
 
-OMNIABASE is not:
+Most systems fail not because their answers are wrong,  
+but because they were only ever looking in one direction.
 
-a semantic oracle
-
-a decision engine
-
-a universal theory of everything
-
-a replacement for domain-specific models
-
-a claim that every description is equally good
-
-
-Its scope is narrower and stronger:
-
-it tests whether one representation was structurally enough.
-
+OMNIABASE does not add a new direction.  
+It removes the assumption that one direction was ever enough.
 
 ---
 
-Foundational Separation
-
-OMNIABASE requires a strict separation between:
-
-measurement
-
-interpretation
-
-decision
-
-
-Measurement asks:
-
-what remains stable, emerges, diverges, or collapses across representations?
-
-
-Interpretation asks:
-
-what does this mean inside a theory, model, or domain?
-
-
-Decision asks:
-
-what action should follow?
-
-
-These layers must not be collapsed.
-
-This separation is non-negotiable.
-
-
----
-
-The Three Canonical Families
-
-1. Diagnostics
-
-This branch studies whether observed structure remains stable beyond a single representation.
-
-Typical outputs:
-
-robustness scores
-
-fragility signals
-
-divergence indicators
-
-instability alerts
-
-post-hoc gates
-
-escalation triggers
-
-
-Central question:
-
-When something looks stable in one representation, does that stability survive when representation changes?
-
-2. Coordinate Discovery
-
-This branch uses multiple representations to expose hidden axes, latent variables, regime separations, and structural coordinates that standard views compress or hide.
-
-Typical outputs:
-
-new descriptive coordinates
-
-structural maps
-
-latent variables
-
-regime separations
-
-axes useful for modeling and forecasting
-
-
-Central question:
-
-What structure becomes visible only when a phenomenon is observed across multiple codings rather than a single one?
-
-3. Cross-Representation Translation
-
-This branch studies compatibility and shared structural residue across different descriptions of the same object.
-
-Typical outputs:
-
-compatibility scores
-
-alignment measures
-
-translatability maps
-
-incompatibility signals
-
-shared structural residues
-
-
-Central question:
-
-When two descriptions appear different, how much are they still describing the same structural object?
-
-
----
-
-Ecosystem Repositories
-
-The public ecosystem is organized as distinct roles inside one larger architecture.
-
-Foundation Layer
-
-OMNIABASE
-
-observer-suspension
-
-MATHEMATICS-WITHOUT-REPRESENTATION
-
-MetaBase-AdaptiveLogic
-
-MetaBase-MBX01
-
-Omniabase-MBX01
-
-
-Measurement Layer
-
-OMNIA
-
-lon-mirror
-
-Pre-Deployment-Structural-Gate
-
-omnia-limit
-
-OMNIA-RADAR
-
-
-Representation and Translation
-
-omniabase-coordinate-discovery
-
-omega-translator
-
-omega-latent-carrier
-
-omega-method
-
-ottavia-base8-mb01
-
-
-Cognitive and Interface Layer
-
-dual-echo-perception
-
-reason-bridge
-
-HASC-Human-AI-Structural-Compatibility-Protocol
-
-omega-eden-perception
-
-omnia-human-trajectory
-
-
-Validation and Public Claim Layer
-
-omnia-gsm8k-claim
-
-
-These repositories should be read as differentiated roles, not as isolated fragments.
-
-
----
-
-Public Proof Path
-
-The ecosystem should be read as a chain, not as a pile of repositories.
-
-Shortest public proof path:
-
-observer-suspension
--> OMNIABASE
--> OMNIA
--> lon-mirror
--> Pre-Deployment-Structural-Gate
--> omnia-limit
-
-Functional reading:
-
-frame reduction
--> multirepresentational principle
--> structural measurement
--> runtime evidence
--> deployment gate
--> formal stop boundary
-
-For the full version, see PROOF_PATH.md.
-
-
----
-
-Reading Order
-
-A newcomer can read the ecosystem in this order:
-
-1. PROOF_PATH.md
-
-
-2. FIRST_PROOF.md
-
-
-3. FIRST_PUBLIC_DEMONSTRATION.md
-
-
-4. OMNIABASE_PUBLIC_DEMONSTRATION.md
-
-
-5. OMNIABASE_CANONICAL_DEMONSTRATION_v1.md
-
-
-6. OMNIABASE_MRT_v0.md
-
-
-7. OMNIABASE_MRT_v0_CASE_01.md
-
-
-8. minimal_structural_reliability_demo_v0.md
-
-
-9. ARCHITECTURE.md
-
-
-10. BRANCHES.md
-
-
-11. FOUNDATIONS.md
-
-
-12. LEXICON.md
-
-
-13. PHILOSOPHY.md
-
-
-14. REPOSITORY_MAP.md
-
-
-15. ROADMAP.md
-
-
-16. CONTRIBUTING_PRINCIPLES.md
-
-
-
-
----
-
-Repository Structure
-
-This repository is the umbrella repository of the OMNIABASE framework.
-
-Its purpose is to host:
-
-the foundational principle
-
-the common architecture
-
-the branch taxonomy
-
-the shared language of the framework
-
-the proof path
-
-the first public proof layer
-
-the canonical public demonstrations
-
-the minimal operational MRT layer
-
-links to specialized branch repositories
-
-
-This repository defines the framework itself, not any single branch-specific production implementation.
-
-
----
-
-Scope
-
-OMNIABASE applies wherever a phenomenon can be rendered into multiple workable codings, encodings, projections, or descriptive views.
-
-This may include:
-
-dynamical systems
-
-symbolic sequences
-
-model outputs
-
-sensor streams
-
-mathematical objects
-
-formal descriptions
-
-multimodal correspondences
-
-human-AI structural interfaces
-
-
-The framework is unified not by subject matter, but by the possibility of structural comparison across representations.
-
-
----
-
-Boundary
-
-OMNIABASE does not interpret pure meaning.
-It does not decide.
-
-It operates on structural traces, not on metaphysical guarantees.
-
-Its boundary is what keeps the framework coherent.
-
-
----
-
-Summary
-
-OMNIABASE is a framework for testing structural completeness across multiple representations.
-
-It is built on one principle:
-
-a phenomenon is not exhausted by one view.
-
-By changing representation, OMNIABASE aims to distinguish:
-
-representation-dependent structure
-
-representation-resistant structure
-
-emergent cross-view structure
-
-structural collapse under representational change
-
-
+*Massimiliano Brighindi — MB-X.01 / Omniabase±*
