@@ -200,19 +200,20 @@ A recommended reading order is:
 - `observer-suspension`
 
 ### Step 3 — Canonical branches
-- Diagnostics lineage:
-  - `OMNIA`
-  - `lon-mirror`
-  - `omnia-limit`
-  - `Pre-Deployment-Structural-Gate`
-  - `OMNIA-RADAR`
 
-- Coordinate Discovery lineage:
-  - `omniabase-coordinate-discovery`
+#### Diagnostics lineage
+- `OMNIA`
+- `lon-mirror`
+- `omnia-limit`
+- `Pre-Deployment-Structural-Gate`
+- `OMNIA-RADAR`
 
-- Cross-Representation Translation lineage:
-  - `omega-translator`
-  - `HASC-Human-AI-Structural-Compatibility-Protocol`
+#### Coordinate Discovery lineage
+- `omniabase-coordinate-discovery`
+
+#### Cross-Representation Translation lineage
+- `omega-translator`
+- `HASC-Human-AI-Structural-Compatibility-Protocol`
 
 ### Step 4 — Historical or adjacent satellites
 - `dual-echo-perception`
@@ -254,19 +255,20 @@ These distinctions are required for ecosystem readability.
 - `OMNIABASE`
 
 ### Canonical branch repositories or branch lineages
-- Diagnostics:
-  - `OMNIA`
-  - `lon-mirror`
-  - `omnia-limit`
-  - `Pre-Deployment-Structural-Gate`
-  - `OMNIA-RADAR`
 
-- Coordinate Discovery:
-  - `omniabase-coordinate-discovery`
+#### Diagnostics
+- `OMNIA`
+- `lon-mirror`
+- `omnia-limit`
+- `Pre-Deployment-Structural-Gate`
+- `OMNIA-RADAR`
 
-- Cross-Representation Translation:
-  - `omega-translator`
-  - `HASC-Human-AI-Structural-Compatibility-Protocol`
+#### Coordinate Discovery
+- `omniabase-coordinate-discovery`
+
+#### Cross-Representation Translation
+- `omega-translator`
+- `HASC-Human-AI-Structural-Compatibility-Protocol`
 
 ### Epistemic pre-layer
 - `observer-suspension`
@@ -305,7 +307,55 @@ This prevents ecosystem drift.
 
 ---
 
-## 10. Summary
+## 10. Criteria for adding a repository to the map
+
+A repository should be added to this map only if at least one of the following is true:
+
+- it embodies one canonical branch of Omniabase
+- it functions as an epistemic gateway into the framework
+- it preserves historically important context for understanding the framework
+- it extends the ecosystem in a way that remains structurally relevant
+
+A repository should not be added merely because it shares vocabulary, naming, or thematic overlap.
+
+The map must remain architectural, not exhaustive.
+
+---
+
+## 11. Criteria for reclassification
+
+Repository roles are not assumed to be permanently fixed.
+
+A repository may be reclassified if:
+
+- its function becomes clearer over time
+- a branch becomes more formally defined
+- a historical satellite evolves into a branch implementation
+- a branch implementation becomes obsolete or gets superseded
+- the overall architecture of the framework is refined
+
+Reclassification should remain explicit and justified.
+
+---
+
+## 12. Ecosystem discipline
+
+The purpose of this map is not only descriptive.
+
+It is also protective.
+
+Without repository discipline, the ecosystem risks becoming:
+
+- historically overloaded
+- conceptually ambiguous
+- branch-confused
+- externally unreadable
+
+This map exists to keep the framework more legible than the path that generated it.
+
+---
+
+## 13. Summary
 
 The Omniabase ecosystem is not a flat collection of related repositories.
 
