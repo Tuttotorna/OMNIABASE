@@ -211,7 +211,86 @@ It is an epistemic shift.
 
 ---
 
-## 11. Philosophical summary
+## 11. Beyond dogma
+
+Omniabase is not only a way of varying representation.
+
+It is also a way of resisting representational dogma.
+
+A representation becomes dogmatic when it stops being seen as a choice and starts being treated as the natural form of the phenomenon itself.
+
+This may happen with:
+
+- dominant numerical systems
+- fixed coordinate systems
+- standard units
+- default linguistic frames
+- observer-centered viewpoints
+- familiar scientific conventions
+
+Omniabase does not reject these forms.
+
+It refuses to grant them unquestioned closure.
+
+Its role is to ask what may have remained unseen simply because the same representational frame was repeated until it became invisible.
+
+---
+
+## 12. The role of the observer
+
+Omniabase does not require the destruction of observation.
+
+It requires the reduction of observer privilege.
+
+A phenomenon can be studied:
+
+- through one or more explicit observer frames
+- through reduced observer privilege
+- through comparison between observer-centered and observer-decentered views
+
+This difference may itself become informative.
+
+The goal is not to eliminate the observer absolutely.
+The goal is to prevent one observer-centered view from silently becoming the final court of structural reality.
+
+---
+
+## 13. Opening the beyond
+
+Omniabase is not built to negate what has already been reached.
+
+It is built to open what may lie beyond the current representational threshold.
+
+That beyond is not mystical.
+
+It may consist simply of structures that were already there but remained inaccessible because the representational frame was too rigid, too habitual, or too narrow.
+
+In this sense, Omniabase does not seek to invent the new.
+
+It seeks to make newly visible what may already exist beyond the closure of a single view.
+
+---
+
+## 14. Philosophy of continuity
+
+Omniabase stands in continuity with prior knowledge.
+
+It does not erase mathematics.
+It does not erase science.
+It does not erase human intuition.
+It does not erase representation.
+
+It deepens access.
+
+The world remains intact.
+The phenomenon remains intact.
+The practical function remains intact.
+
+What changes is that structural access becomes deeper than the surface of one privileged representation.
+
+---
+
+## 15. Philosophical summary
 
 Omniabase does not deny what is already seen.
 
@@ -232,7 +311,7 @@ but access to structure becomes deeper than the surface of one privileged view.
 
 ---
 
-## 12. Short formula
+## 16. Short formula
 
 Omniabase does not change the object.
 
