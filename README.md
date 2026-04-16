@@ -29,7 +29,7 @@ If you want the shortest path through the ecosystem, read:
 
 ## One Concrete Example
 
-![Coordinate Discovery example](docs/images/coordinate_discovery_bifurcation.png)
+![Coordinate Discovery example](docs/bifurcation.png)
 
 A standard single-view reading says:
 
@@ -334,7 +334,7 @@ It should be read as a chain.
 The shortest public proof path is:
 
 ```text
-Observer Suspension
+observer-suspension
 -> OMNIABASE
 -> OMNIA
 -> lon-mirror
@@ -408,7 +408,7 @@ Optional pre-layer:
 observer-suspension
 
 
-Optional side branches:
+Optional side branches and related repositories:
 
 omniabase-coordinate-discovery
 
