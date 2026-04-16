@@ -1,255 +1,202 @@
+# OMNIABASE
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
 
 OMNIABASE is a multirepresentational framework for structural analysis.
 
-It does not replace existing knowledge.
+It does not replace existing knowledge.  
 It tests whether a single representation is structurally sufficient.
 
 Its task is simple:
 
-expose what remains stable across representations
+- expose what remains stable across representations
+- expose what emerges only under recoding
+- expose what collapses when representational privilege is removed
 
-expose what emerges only under recoding
-
-expose what collapses when representational privilege is removed
-
-
-Author: Massimiliano Brighindi
-Contact: brighissimo@gmail.com
-
+**Author:** Massimiliano Brighindi  
+**Contact:** brighissimo@gmail.com
 
 ---
 
-Overview
+## Overview
 
+![OMNIABASE archive overview](docs/images/omniabase_archive_v1.png)
 
-
-OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, regime logic, and bounded structural profiling.
-
+*OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, regime logic, and bounded structural profiling.*
 
 ---
 
-Public Entry
+## Public Entry
 
 If you want the shortest public path, start here:
 
-PROOF_PATH.md
-
-FIRST_PROOF.md
-
-OMNIABASE Public Demonstration
-
+- [PROOF_PATH.md](./PROOF_PATH.md)
+- [FIRST_PROOF.md](./docs/FIRST_PROOF.md)
+- [OMNIABASE Public Demonstration](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
 
 These are the shortest public access points to the framework.
 
-
 ---
 
-Core Claim
+## Core Claim
 
 The central claim of OMNIABASE is narrow:
 
-a single representation can be valid and still be structurally incomplete.
+**a single representation can be valid and still be structurally incomplete.**
 
 OMNIABASE becomes useful when varying representation reveals:
 
-hidden invariance
-
-hidden divergence
-
-latent coordinates
-
-structural fragility
-
-collapse under recoding
-
-compatibility or incompatibility across descriptions
-
-
+- hidden invariance
+- hidden divergence
+- latent coordinates
+- structural fragility
+- collapse under recoding
+- compatibility or incompatibility across descriptions
 
 ---
 
-Public Demonstration
+## Public Demonstration
 
 For the shortest bounded public demonstration, read:
 
-OMNIABASE Public Demonstration
-
+- [OMNIABASE Public Demonstration](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
 
 For the central canonical demonstration, read:
 
-OMNIABASE_CANONICAL_DEMONSTRATION_v1.md
-
+- [OMNIABASE_CANONICAL_DEMONSTRATION_v1.md](./docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
 
 The purpose is not to deny the standard view.
 
 The purpose is stricter:
 
-to show that a standard view can remain correct while still being structurally incomplete.
-
+**to show that a standard view can remain correct while still being structurally incomplete.**
 
 ---
 
-What OMNIABASE Is
+## What OMNIABASE Is
 
 OMNIABASE is a general framework for extracting, testing, and comparing structure across multiple representations.
 
 It studies:
 
-representation-resistant structure
-
-representation-dependent structure
-
-structural emergence under recoding
-
-hidden coordinates
-
-cross-representation compatibility
-
-structural fragility under representational change
-
+- representation-resistant structure
+- representation-dependent structure
+- structural emergence under recoding
+- hidden coordinates
+- cross-representation compatibility
+- structural fragility under representational change
 
 Its unifying condition is not the domain.
 
 Its unifying condition is the existence of cross-representational structure.
 
-
 ---
 
-What OMNIABASE Is Not
+## What OMNIABASE Is Not
 
 OMNIABASE is not:
 
-a semantic oracle
-
-a decision engine
-
-a universal theory of everything
-
-a replacement for domain-specific models
-
-a claim that all representations are equivalent
-
+- a semantic oracle
+- a decision engine
+- a universal theory of everything
+- a replacement for domain-specific models
+- a claim that all representations are equivalent
 
 Its claim is narrower and stronger:
 
-varying representation can reveal structural properties that single-view analysis systematically misses.
-
+**varying representation can reveal structural properties that single-view analysis systematically misses.**
 
 ---
 
-Foundational Separation
+## Foundational Separation
 
 OMNIABASE requires a strict separation between:
 
-measurement
-
-interpretation
-
-decision
-
+- measurement
+- interpretation
+- decision
 
 Measurement asks:
 
-what remains stable, emerges, diverges, or collapses across representations?
-
+- what remains stable, emerges, diverges, or collapses across representations?
 
 Interpretation asks:
 
-what does this mean inside a theory, model, or domain?
-
+- what does this mean inside a theory, model, or domain?
 
 Decision asks:
 
-what action should follow?
-
+- what action should follow?
 
 These layers must not be collapsed.
 
 This separation is non-negotiable.
 
-
 ---
 
-The Three Canonical Families
+## The Three Canonical Families
 
-1. Diagnostics
+### 1. Diagnostics
 
 This branch studies whether observed structure remains stable beyond a single representation.
 
 Typical outputs:
 
-robustness scores
-
-fragility signals
-
-divergence indicators
-
-instability alerts
-
-post-hoc gates
-
-escalation triggers
-
+- robustness scores
+- fragility signals
+- divergence indicators
+- instability alerts
+- post-hoc gates
+- escalation triggers
 
 Central question:
 
-When something looks stable in one representation, does that stability survive when representation changes?
+**When something looks stable in one representation, does that stability survive when representation changes?**
 
-2. Coordinate Discovery
+### 2. Coordinate Discovery
 
 This branch uses multiple representations to expose hidden axes, latent variables, regime separations, and structural coordinates that standard views compress or hide.
 
 Typical outputs:
 
-new descriptive coordinates
-
-structural maps
-
-latent variables
-
-regime separations
-
-axes useful for modeling and forecasting
-
+- new descriptive coordinates
+- structural maps
+- latent variables
+- regime separations
+- axes useful for modeling and forecasting
 
 Central question:
 
-What structure becomes visible only when a phenomenon is observed across multiple codings rather than a single one?
+**What structure becomes visible only when a phenomenon is observed across multiple codings rather than a single one?**
 
-3. Cross-Representation Translation
+### 3. Cross-Representation Translation
 
 This branch studies compatibility and shared structural residue across different descriptions of the same object.
 
 Typical outputs:
 
-compatibility scores
-
-alignment measures
-
-translatability maps
-
-incompatibility signals
-
-shared structural residues
-
+- compatibility scores
+- alignment measures
+- translatability maps
+- incompatibility signals
+- shared structural residues
 
 Central question:
 
-When two descriptions appear different, how much are they still describing the same structural object?
-
+**When two descriptions appear different, how much are they still describing the same structural object?**
 
 ---
 
-Minimal Executable Core
+## Minimal Executable Core
 
 For a minimal executable skeleton of the unified transformation -> alignment -> normalization -> measurement pipeline, see:
 
-examples/omniacore.py
+- [examples/omniacore.py](./examples/omniacore.py)
 
-
-This file is not the final production engine.
+This file is not the final production engine.  
 It is a transparent prototype that shows the minimal operational shape of OMNIABASE/OMNIA convergence:
 
+```text
 object
 -> controlled transformations
 -> alignment
@@ -516,4 +463,14 @@ Cross-Representation Translation
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
+
+## Due controlli secchi da fare subito
+
+1. verifica che questi file esistano davvero:
+- `docs/images/omniabase_archive_v1.png`
+- `docs/bifurcation.png`
+- `docs/FIRST_PROOF.md`
+- `docs/OMNIABASE_PUBLIC_DEMONSTRATION.md`
+- `docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md`
+- `examples/omniacore.py`
 
