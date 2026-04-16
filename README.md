@@ -19,9 +19,11 @@ Its task is to expose what remains stable, what emerges, and what collapses when
 If you want the shortest path through the ecosystem, read:
 
 - [PROOF_PATH.md](./PROOF_PATH.md)
+- [FIRST_PROOF.md](./docs/FIRST_PROOF.md)
 
-This is the canonical public path through the OMNIABASE ecosystem.  
-It shows the shortest sequence from epistemic reframing to structural measurement, runtime evidence, deployment gating, and formal stop boundary.
+`PROOF_PATH.md` shows the canonical public path through the ecosystem.
+
+`FIRST_PROOF.md` shows the first externally legible proof of value.
 
 ---
 
@@ -382,19 +384,22 @@ A newcomer should read the ecosystem in this order:
 1. PROOF_PATH.md — the shortest public path
 
 
-2. OMNIABASE — the general framework
+2. FIRST_PROOF.md — the first externally legible proof
 
 
-3. OMNIA — structural measurement
+3. OMNIABASE — the general framework
 
 
-4. lon-mirror — operational and runtime-facing evidence
+4. OMNIA — structural measurement
 
 
-5. Pre-Deployment-Structural-Gate — deployment-facing gate
+5. lon-mirror — operational and runtime-facing evidence
 
 
-6. omnia-limit — formal stop boundary
+6. Pre-Deployment-Structural-Gate — deployment-facing gate
+
+
+7. omnia-limit — formal stop boundary
 
 
 
@@ -426,7 +431,7 @@ omnia-gsm8k-claim
 HASC-Human-AI-Structural-Compatibility-Protocol
 
 
-This preserves clarity: first the shortest proof path, then the framework, then the strongest public branches.
+This preserves clarity: first the shortest proof path, then the first readable proof, then the framework, then the strongest public branches.
 
 
 ---
@@ -579,6 +584,8 @@ the map of the ecosystem
 
 the public proof path
 
+the first public proof landing
+
 links to specialized branch repositories
 
 
@@ -657,16 +664,3 @@ formal stop boundary
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
-
-Se vuoi evitare un altro errore, fai così:
-- apri edit
-- seleziona tutto
-- cancella
-- incolla solo da `# OMNIABASE` fino all’ultima riga
-- salva
-
-Messaggio commit:
-
-```text
-Rewrite README with canonical proof path and cleaner public entry
-
