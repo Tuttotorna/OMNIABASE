@@ -13,6 +13,38 @@ Its task is to expose what remains, emerges, or collapses beyond a single repres
 
 ---
 
+## One Concrete Example
+
+![Coordinate Discovery example](docs/images/coordinate_discovery_bifurcation.png)
+
+A standard single-view reading says:
+
+- this system undergoes a familiar bifurcation and then enters a chaotic regime
+
+That reading is not wrong.  
+But it is still a **single representation**.
+
+An Omniabase reading asks a different question:
+
+- what changes when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
+
+What may become visible is not only the visible bifurcation itself, but also:
+
+- earlier structural separation between regimes
+- multibase signatures that remain weak or invisible in the ordinary view
+- hidden descriptive axes that compress into the same surface picture
+- measurable differences between trajectories that look locally similar in one representation
+
+This is the point of OMNIABASE.
+
+It does not replace the classical view.  
+It tests whether the classical view is structurally complete enough.
+
+For the branch most directly related to this kind of example, see:  
+**[omniabase-coordinate-discovery](https://github.com/Tuttotorna/omniabase-coordinate-discovery)**
+
+---
+
 ## Overview
 
 OMNIABASE is a general multirepresentational framework for structural analysis beyond a single representation.
