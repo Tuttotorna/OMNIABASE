@@ -6,7 +6,14 @@ It does not replace what is already known.
 It changes the depth at which a phenomenon becomes structurally visible.  
 Its task is to expose what remains, emerges, or collapses beyond a single representation.
 
-Omniabase is a general multirepresentational framework for structural analysis beyond a single representation.
+**Author:** Massimiliano Brighindi
+brighissimo@gmail.com
+
+---
+
+## Overview
+
+OMNIABASE is a general multirepresentational framework for structural analysis beyond a single representation.
 
 Its core premise is simple:
 
@@ -19,13 +26,13 @@ Instead, the same object can be observed across multiple simultaneous codings in
 - what emerges only through cross-representational analysis
 - what collapses when representational privilege is removed
 
-Omniabase is not a single application.
+OMNIABASE is not a single application.
 
 It is the general framework from which multiple structural branches can be derived.
 
 ---
 
-## Why Omniabase
+## Why OMNIABASE
 
 Most systems are studied inside one chosen representation.
 
@@ -39,7 +46,7 @@ It is often not enough to determine:
 - which structures appear only when the representational frame is varied
 - which apparent regularities are artifacts of a privileged view
 
-Omniabase exists to address that gap.
+OMNIABASE exists to address that gap.
 
 Its method is not based on replacing one representation with another.
 
@@ -54,7 +61,7 @@ A phenomenon is not exhausted by a single view.
 A representation is never neutral.  
 It is also a constraint, a filter, a distortion channel, and a privilege structure.
 
-For this reason, Omniabase treats plural representation as method.
+For this reason, OMNIABASE treats plural representation as method.
 
 The same object can be recoded across multiple bases, encodings, coordinate systems, or descriptive views in order to study:
 
@@ -71,9 +78,9 @@ The goal is to expose structural behavior that single-view analysis tends to mis
 
 ---
 
-## What Omniabase is
+## What OMNIABASE is
 
-Omniabase is a general framework for extracting, testing, and comparing structure across multiple representations.
+OMNIABASE is a general framework for extracting, testing, and comparing structure across multiple representations.
 
 It provides a common foundation for studying:
 
@@ -84,7 +91,7 @@ It provides a common foundation for studying:
 - cross-representation compatibility
 - structural fragility and collapse under representational change
 
-Omniabase is therefore not tied to one domain, one metric family, or one implementation style.
+OMNIABASE is therefore not tied to one domain, one metric family, or one implementation style.
 
 Its unifying condition is not the domain.
 
@@ -92,9 +99,9 @@ Its unifying condition is the existence of cross-representational structure.
 
 ---
 
-## What Omniabase is not
+## What OMNIABASE is not
 
-Omniabase is not:
+OMNIABASE is not:
 
 - a semantic oracle
 - a universal theory of everything
@@ -111,7 +118,7 @@ varying representation can reveal structural properties that single-view analysi
 
 ## Foundational Separation
 
-Omniabase requires a strict separation between:
+OMNIABASE requires a strict separation between:
 
 - measurement
 - interpretation
@@ -137,7 +144,7 @@ This separation is non-negotiable.
 
 ## The Three Canonical Families
 
-From the core Omniabase principle, three canonical branches follow.
+From the core OMNIABASE principle, three canonical branches follow.
 
 ### 1. Omniabase Diagnostics
 
@@ -165,11 +172,9 @@ Typical outputs include:
 - post-hoc gates
 - escalation triggers
 
-This is the defensive branch of Omniabase.
+This is the defensive branch of OMNIABASE.
 
 Its role is to detect when apparent stability is structurally weak.
-
----
 
 ### 2. Omniabase Coordinate Discovery
 
@@ -196,11 +201,9 @@ Typical outputs include:
 - separations between generators or regimes
 - axes useful for modeling and forecasting
 
-This is the generative branch of Omniabase.
+This is the generative branch of OMNIABASE.
 
 Its role is not primarily to judge stability, but to reveal structure.
-
----
 
 ### 3. Omniabase Cross-Representation Translation
 
@@ -226,15 +229,53 @@ Typical outputs include:
 - incompatibility signals
 - shared structural residues
 
-This is the interface branch of Omniabase.
+This is the interface branch of OMNIABASE.
 
 Its role is to measure structural continuity across descriptive boundaries.
 
 ---
 
+## Canonical Branch Repositories
+
+The current public ecosystem is organized around the following repositories:
+
+- **OMNIABASE** — umbrella framework repository  
+  `https://github.com/Tuttotorna/OMNIABASE`
+
+- **OMNIA** — Diagnostics / Structural Measurement branch  
+  `https://github.com/Tuttotorna/OMNIA`
+
+- **omniabase-coordinate-discovery** — Coordinate Discovery branch  
+  `https://github.com/Tuttotorna/omniabase-coordinate-discovery`
+
+- **omega-translator** — Cross-Representation Translation branch  
+  `https://github.com/Tuttotorna/omega-translator`
+
+- **observer-suspension** — epistemic pre-layer  
+  `https://github.com/Tuttotorna/observer-suspension`
+
+These repositories should be read as distinct roles inside one architecture, not as isolated or competing projects.
+
+---
+
+## Recommended Reading Order
+
+A newcomer should ideally read the ecosystem in this order:
+
+1. **OMNIABASE** — the general framework
+2. **observer-suspension** — the epistemic pre-layer
+3. **OMNIA** — Diagnostics / Structural Measurement
+4. **omniabase-coordinate-discovery** — hidden coordinates and latent structure
+5. **omega-translator** — structural residue across representational boundaries
+
+This preserves clarity:
+first the principle, then the decentering move, then the three canonical branches.
+
+---
+
 ## Unified View
 
-Omniabase begins from one principle:
+OMNIABASE begins from one principle:
 
 the same phenomenon should not be assumed to be fully captured by one representation.
 
@@ -256,7 +297,7 @@ removing the privilege of a single representation.
 
 Human-centered description, standard coordinates, dominant numerical systems, single-sensor views, and default linguistic frames are treated as local conveniences, not absolute anchors.
 
-Omniabase does not eliminate observation.
+OMNIABASE does not eliminate observation.
 
 It removes the monopoly of a privileged observer.
 
@@ -266,7 +307,7 @@ This is one of the key transitions from observer-centered description to represe
 
 ## Scope
 
-Omniabase applies wherever a phenomenon can be rendered into multiple workable codings, encodings, projections, or descriptive views.
+OMNIABASE applies wherever a phenomenon can be rendered into multiple workable codings, encodings, projections, or descriptive views.
 
 This may include:
 
@@ -285,7 +326,7 @@ The framework is unified not by subject matter, but by the possibility of struct
 
 ## Boundary
 
-Omniabase does not cover what leaves no workable trace, no transformable structure, and no comparable residue.
+OMNIABASE does not cover what leaves no workable trace, no transformable structure, and no comparable residue.
 
 It does not directly measure pure meaning, pure interiority, or absolute causation in themselves.
 
@@ -299,7 +340,7 @@ It is what keeps the framework coherent.
 
 ## Repository Role
 
-This repository is the umbrella repository of the Omniabase framework.
+This repository is the umbrella repository of the OMNIABASE framework.
 
 Its purpose is to host:
 
@@ -334,13 +375,13 @@ This preserves both unity and specialization.
 
 ## Summary
 
-Omniabase is a general framework for structural analysis across multiple representations.
+OMNIABASE is a general framework for structural analysis across multiple representations.
 
 It is built on a simple idea:
 
 a phenomenon is not exhausted by one view.
 
-By observing the same object across multiple codings, Omniabase aims to distinguish:
+By observing the same object across multiple codings, OMNIABASE aims to distinguish:
 
 - representation-dependent structure
 - representation-resistant structure
