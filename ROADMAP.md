@@ -52,6 +52,7 @@ Establish Omniabase as a stable general framework.
 - define the canonical branches
 - define the shared lexicon
 - define the repository map
+- define the philosophical intuition of the framework
 
 ### Repository role
 
@@ -279,12 +280,43 @@ This prevents framework inflation.
 
 ---
 
-## 10. Known current priorities
+## 10. Openness without dogma
+
+Omniabase should not harden into the same kind of closure it was created to question.
+
+This means that the framework must preserve a distinction between:
+
+- stable principles
+- open representational forms
+
+Stable principles include:
+
+- no single-view sufficiency
+- representational variation as method
+- cross-representational comparison
+- separation of measurement, interpretation, and decision
+- structural discipline in claims
+
+Open representational forms may include:
+
+- new coding families
+- new recoding strategies
+- non-standard bases
+- variable scales
+- dynamic units
+- alternative descriptive geometries
+- observer-centered and observer-decentered comparisons
+
+The framework should therefore have a constitution, not a cage.
+
+---
+
+## 11. Known current priorities
 
 At the present stage, the most important priorities are:
 
 ### Priority 1
-Complete the umbrella repository foundation.
+Complete and refine the umbrella repository foundation.
 
 ### Priority 2
 Stabilize the branch taxonomy.
@@ -298,9 +330,12 @@ Identify the first reference implementation path.
 ### Priority 5
 Preserve a strict boundary between framework-level language and branch-level claims.
 
+### Priority 6
+Keep the framework open to representational expansion without letting it dissolve into vagueness.
+
 ---
 
-## 11. Development risks
+## 12. Development risks
 
 The roadmap must explicitly guard against the following risks.
 
@@ -319,9 +354,14 @@ Claiming universal capability before branch-level evidence exists.
 ### Risk E — Historical overload
 Letting the history of development make the framework harder to read than it needs to be.
 
+### Risk F — Re-dogmatization
+Turning Omniabase into a new closed canon of accepted representations, bases, units, or descriptive forms.
+
+This would violate the spirit of the framework itself.
+
 ---
 
-## 12. Long-term direction
+## 13. Long-term direction
 
 The long-term direction of Omniabase is not to become one monolithic system.
 
@@ -334,12 +374,29 @@ In that sense, maturity means:
 - clean ecosystem boundaries
 - minimal reference implementations
 - externally testable branch products
+- openness to deeper representational exploration without loss of rigor
 
 Omniabase should aim to become a framework that is broader than any one branch, but clearer than the total history of its emergence.
 
 ---
 
-## 13. Summary
+## 14. Strategic horizon
+
+If Omniabase succeeds, its value will not come only from solving one local task.
+
+Its deeper value will come from changing the point of departure of inquiry.
+
+Instead of assuming that one dominant representation is enough, Omniabase opens the possibility that new structure may become visible when representational privilege is reduced.
+
+This does not guarantee discovery.
+
+But it may create the conditions under which previously inaccessible structure becomes finally legible.
+
+That horizon should remain visible throughout the roadmap, even while each phase stays disciplined and concrete.
+
+---
+
+## 15. Summary
 
 The Omniabase roadmap proceeds in ordered phases:
 
