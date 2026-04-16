@@ -20,7 +20,6 @@ Its task is simple:
 
 ## Overview
 
-![OMNIABASE archive overview](docs/images/omniabase_archive_v1.png)
 
 *OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, regime logic, and bounded structural profiling.*
 
