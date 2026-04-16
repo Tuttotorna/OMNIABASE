@@ -678,3 +678,4 @@ formal stop boundary
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
+
