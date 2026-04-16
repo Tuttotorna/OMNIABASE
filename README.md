@@ -1,4 +1,4 @@
-OMNIABASE is a multirepresentational framework for structural analysis.
+#OMNIABASE is a multirepresentational framework for structural analysis.
 
 It does not replace existing knowledge.
 It tests whether a single representation is structurally sufficient.
