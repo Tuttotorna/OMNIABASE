@@ -656,4 +656,17 @@ formal stop boundary
 
 OMNIABASE is not a replacement for domain knowledge.
 
-It is a framework for testing whether a single representation was enough
+It is a framework for testing whether a single representation was enough.
+
+Se vuoi evitare un altro errore, fai così:
+- apri edit
+- seleziona tutto
+- cancella
+- incolla solo da `# OMNIABASE` fino all’ultima riga
+- salva
+
+Messaggio commit:
+
+```text
+Rewrite README with canonical proof path and cleaner public entry
+
