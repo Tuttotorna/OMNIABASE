@@ -4,36 +4,25 @@
 
 OMNIABASE is a multirepresentational framework for structural analysis.
 
-It does not replace existing knowledge.  
+It does not replace what is already known.  
 It tests whether a single representation is structurally sufficient.
 
-Its task is simple:
-
-- expose what remains stable across representations
-- expose what emerges only under recoding
-- expose what collapses when representational privilege is removed
+Its task is to expose what remains stable, what emerges, and what collapses when the same phenomenon is observed across multiple representations.
 
 **Author:** Massimiliano Brighindi  
 **Contact:** brighissimo@gmail.com
 
 ---
 
-## Overview
+## Start Here
 
-
-*OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, regime logic, and bounded structural profiling.*
-
----
-
-## Public Entry
-
-If you want the shortest public path, start here:
+If you want the shortest entry into the framework, start with:
 
 - [PROOF_PATH.md](./PROOF_PATH.md)
-- [FIRST_PROOF.md](./docs/FIRST_PROOF.md)
-- [OMNIABASE Public Demonstration](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
+- [docs/FIRST_PROOF.md](./docs/FIRST_PROOF.md)
+- [docs/FIRST_PUBLIC_DEMONSTRATION.md](./docs/FIRST_PUBLIC_DEMONSTRATION.md)
 
-These are the shortest public access points to the framework.
+These are the shortest public entry points into the ecosystem.
 
 ---
 
@@ -54,21 +43,65 @@ OMNIABASE becomes useful when varying representation reveals:
 
 ---
 
-## Public Demonstration
+## Canonical Demonstrations
 
-For the shortest bounded public demonstration, read:
+For the main public demonstrations, read:
 
-- [OMNIABASE Public Demonstration](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
+- [docs/OMNIABASE_PUBLIC_DEMONSTRATION.md](./docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
+- [docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md](./docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
 
-For the central canonical demonstration, read:
+These are the central public objects of the framework.
 
-- [OMNIABASE_CANONICAL_DEMONSTRATION_v1.md](./docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
-
-The purpose is not to deny the standard view.
-
-The purpose is stricter:
+Their role is not to deny the standard view.  
+Their role is stricter:
 
 **to show that a standard view can remain correct while still being structurally incomplete.**
+
+---
+
+## One Concrete Example
+
+![Coordinate Discovery example](docs/bifurcation.png)
+
+A standard single-view reading says:
+
+- this system undergoes a familiar bifurcation and then enters a chaotic regime
+
+That reading is not wrong.  
+But it is still a single representation.
+
+An OMNIABASE reading asks a different question:
+
+- what changes when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
+
+What may become visible is not only the visible bifurcation itself, but also:
+
+- earlier structural separation between regimes
+- multibase signatures that remain weak or invisible in the ordinary view
+- hidden descriptive axes compressed into the same surface picture
+- measurable differences between trajectories that look locally similar in one representation
+
+OMNIABASE does not replace the classical view.  
+It tests whether the classical view is structurally complete enough.
+
+For the branch most directly related to this kind of example, see:  
+**[omniabase-coordinate-discovery](https://github.com/Tuttotorna/omniabase-coordinate-discovery)**
+
+---
+
+## Operational Layer
+
+If you want the first operational layer of the framework, read:
+
+- [OMNIABASE_MRT_v0.md](./OMNIABASE_MRT_v0.md)
+- [OMNIABASE_MRT_v0_CASE_01.md](./OMNIABASE_MRT_v0_CASE_01.md)
+- [examples/minimal_structural_reliability_demo_v0.md](./examples/minimal_structural_reliability_demo_v0.md)
+
+These files define:
+
+- the minimal reality test of the framework
+- the first compiled case where OMNIABASE is applied as procedure rather than philosophy
+- the first minimal example layer currently present in the repository
 
 ---
 
@@ -186,80 +219,43 @@ Central question:
 
 ---
 
-## Minimal Executable Core
+## Repository Structure
 
-For a minimal executable skeleton of the unified transformation -> alignment -> normalization -> measurement pipeline, see:
+This repository is the umbrella repository of the OMNIABASE framework.
 
-- [examples/omniacore.py](./examples/omniacore.py)
+Its purpose is to host:
 
-This file is not the final production engine.  
-It is a transparent prototype that shows the minimal operational shape of OMNIABASE/OMNIA convergence:
+- the foundational principle
+- the common architecture
+- the branch taxonomy
+- the shared language of the framework
+- the proof path
+- public demonstrations
+- operational MRT files
+- links to specialized branch repositories
 
-```text
-object
--> controlled transformations
--> alignment
--> normalization
--> structural measurement
+Core repository files:
 
-Its role is narrow:
+- [ARCHITECTURE.md](./ARCHITECTURE.md)
+- [BRANCHES.md](./BRANCHES.md)
+- [FOUNDATIONS.md](./FOUNDATIONS.md)
+- [LEXICON.md](./LEXICON.md)
+- [PHILOSOPHY.md](./PHILOSOPHY.md)
+- [REPOSITORY_MAP.md](./REPOSITORY_MAP.md)
+- [ROADMAP.md](./ROADMAP.md)
+- [CONTRIBUTING_PRINCIPLES.md](./CONTRIBUTING_PRINCIPLES.md)
 
-make the core pipeline executable
-
-clarify the architectural separation
-
-expose the minimal shape of the framework in code
-
-
-It does not define the final metric theory.
-It does not replace specialized branch implementations.
-
-
----
-
-One Concrete Example
-
-
-
-A standard reading says:
-
-this system undergoes a familiar bifurcation and then enters a chaotic regime
-
-
-That reading is not wrong.
-But it is still a single representation.
-
-OMNIABASE asks a different question:
-
-what becomes visible when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
-
-
-Possible outcomes include:
-
-earlier structural separation between regimes
-
-weak multibase signatures invisible in the ordinary view
-
-hidden descriptive axes compressed into one surface picture
-
-measurable differences between trajectories that look locally similar in one frame
-
-
-OMNIABASE does not replace the classical view.
-It tests whether the classical view is structurally sufficient.
-
-For the branch most directly related to this type of example, see:
-omniabase-coordinate-discovery
-
+This repository defines the framework itself, not any single branch-specific benchmark or production implementation.
 
 ---
 
-Public Proof Path
+## Public Proof Path
 
 The ecosystem should be read as a chain, not as a pile of repositories.
 
 Shortest public proof path:
 
+```text
 observer-suspension
 -> OMNIABASE
 -> OMNIA
@@ -283,11 +279,17 @@ For the full version, see PROOF_PATH.md.
 
 Canonical Repositories
 
-The current public ecosystem is organized around these roles:
+The public ecosystem is organized around these roles:
 
 OMNIABASE - umbrella framework
 
 OMNIA - diagnostics / structural measurement
+
+lon-mirror - structural runtime layer
+
+Pre-Deployment-Structural-Gate - deployment gate
+
+OMNIA-LIMIT - formal stop boundary
 
 omniabase-coordinate-discovery - coordinate discovery
 
@@ -303,56 +305,49 @@ These repositories should be read as distinct roles inside one architecture, not
 
 Reading Order
 
-A newcomer should read the ecosystem in this order:
+A newcomer can read the ecosystem in this order:
 
 1. PROOF_PATH.md
 
 
-2. FIRST_PROOF.md
+2. docs/FIRST_PROOF.md
 
 
-3. OMNIABASE Public Demonstration
+3. docs/FIRST_PUBLIC_DEMONSTRATION.md
 
 
-4. OMNIABASE_CANONICAL_DEMONSTRATION_v1.md
+4. docs/OMNIABASE_PUBLIC_DEMONSTRATION.md
 
 
-5. OMNIA
+5. docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md
 
 
-6. lon-mirror
+6. OMNIABASE_MRT_v0.md
 
 
-7. Pre-Deployment-Structural-Gate
+7. OMNIABASE_MRT_v0_CASE_01.md
 
 
-8. OMNIA-LIMIT
+8. examples/minimal_structural_reliability_demo_v0.md
 
 
+9. ARCHITECTURE.md
 
-Optional:
 
-observer-suspension
+10. BRANCHES.md
 
-omniabase-coordinate-discovery
 
-omega-translator
+11. FOUNDATIONS.md
 
-omega-latent-carrier
 
-omega-method
+12. LEXICON.md
 
-OMNIA-RADAR
 
-reason-bridge
+13. REPOSITORY_MAP.md
 
-dual-echo-perception
 
-MATHEMATICS-WITHOUT-REPRESENTATION
+14. ROADMAP.md
 
-omnia-gsm8k-claim
-
-HASC-Human-AI-Structural-Compatibility-Protocol
 
 
 
@@ -399,38 +394,6 @@ Its boundary is what keeps the framework coherent.
 
 ---
 
-Repository Role
-
-This repository is the umbrella repository of the OMNIABASE framework.
-
-Its purpose is to host:
-
-the foundational principle
-
-the common architecture
-
-the canonical branch taxonomy
-
-the shared language of the framework
-
-the public proof path
-
-the first public proof landing
-
-the primary public demonstration
-
-the canonical public demonstration
-
-links to specialized branch repositories
-
-
-This repository defines the framework itself, not any single branch-specific benchmark or implementation.
-
-Those belong in branch repositories.
-
-
----
-
 Summary
 
 OMNIABASE is a general framework for structural analysis across multiple representations.
@@ -462,14 +425,4 @@ Cross-Representation Translation
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
-
-## Due controlli secchi da fare subito
-
-1. verifica che questi file esistano davvero:
-- `docs/images/omniabase_archive_v1.png`
-- `docs/bifurcation.png`
-- `docs/FIRST_PROOF.md`
-- `docs/OMNIABASE_PUBLIC_DEMONSTRATION.md`
-- `docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md`
-- `examples/omniacore.py`
 
