@@ -27,6 +27,20 @@ If you want the shortest path through the ecosystem, read:
 
 ---
 
+## Operational Files
+
+If you want the first operational layer of OMNIABASE, read:
+
+- [OMNIABASE_MRT_v0.md](./OMNIABASE_MRT_v0.md)
+- [OMNIABASE_MRT_v0_CASE_01.md](./OMNIABASE_MRT_v0_CASE_01.md)
+
+These files define:
+
+- the minimal reality test of the framework
+- the first compiled case where OMNIABASE is applied as procedure rather than philosophy
+
+---
+
 ## One Concrete Example
 
 ![Coordinate Discovery example](docs/bifurcation.png)
