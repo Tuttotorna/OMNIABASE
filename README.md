@@ -1,5 +1,11 @@
 # OMNIABASE
 
+OMNIABASE is the microscope of structure.
+
+It does not replace what is already known.  
+It changes the depth at which a phenomenon becomes structurally visible.  
+Its task is to expose what remains, emerges, or collapses beyond a single representation.
+
 Omniabase is a general multirepresentational framework for structural analysis beyond a single representation.
 
 Its core premise is simple:
@@ -45,7 +51,7 @@ Its method is based on making representation itself variable, comparable, and st
 
 A phenomenon is not exhausted by a single view.
 
-A representation is never neutral.
+A representation is never neutral.  
 It is also a constraint, a filter, a distortion channel, and a privilege structure.
 
 For this reason, Omniabase treats plural representation as method.
@@ -303,6 +309,8 @@ Its purpose is to host:
 - the shared language of the framework
 - the map of the ecosystem
 - links to specialized branch repositories
+
+This repository defines the framework itself, not any single branch, implementation, or local benchmark.
 
 This repository is not the primary place for branch-specific benchmarks, code, or narrow experimental claims.
 
