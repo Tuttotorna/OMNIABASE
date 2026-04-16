@@ -19,9 +19,9 @@ OMNIABASE is a general multirepresentational framework for structural analysis b
 
 Its core premise is simple:
 
-a phenomenon should not be treated as exhausted by one coding, one coordinate system, one numerical base, one symbolic encoding, or one descriptive view.
+a phenomenon should not be treated as exhausted by one coding, one coordinate system, one numerical base, one symbolic encoding, one observer-centered frame, or one descriptive view.
 
-Instead, the same object can be observed across multiple simultaneous codings in order to distinguish:
+Instead, the same object can be observed across multiple codings in order to distinguish:
 
 - what depends on the chosen representation
 - what remains stable beyond it
@@ -47,12 +47,35 @@ It is often not enough to determine:
 - which structures remain stable under recoding
 - which structures appear only when the representational frame is varied
 - which apparent regularities are artifacts of a privileged view
+- which hidden coordinates remain invisible only because one descriptive surface dominates the analysis
 
 OMNIABASE exists to address that gap.
 
 Its method is not based on replacing one representation with another.
 
 Its method is based on making representation itself variable, comparable, and structurally analyzable.
+
+---
+
+## Philosophical Intuition
+
+OMNIABASE does not change the object.
+
+It changes the depth of access to the object.
+
+A number remains what it is.  
+A phenomenon remains what it is.  
+Its practical function does not disappear.
+
+What changes is the level at which it becomes structurally visible.
+
+In this sense, OMNIABASE can be understood as a microscope of structure:
+
+not to deny what is already seen,  
+but to open access to what remains beyond a single representation.
+
+It does not reject prior knowledge.  
+It extends structural access beyond the assumption that one familiar human-standard representation is enough.
 
 ---
 
@@ -65,7 +88,7 @@ It is also a constraint, a filter, a distortion channel, and a privilege structu
 
 For this reason, OMNIABASE treats plural representation as method.
 
-The same object can be recoded across multiple bases, encodings, coordinate systems, or descriptive views in order to study:
+The same object can be recoded across multiple bases, encodings, coordinate systems, units, scales, or descriptive views in order to study:
 
 - invariance
 - divergence
@@ -178,6 +201,8 @@ This is the defensive branch of OMNIABASE.
 
 Its role is to detect when apparent stability is structurally weak.
 
+---
+
 ### 2. Omniabase Coordinate Discovery
 
 This branch uses multiple representations to expose hidden axes, latent variables, regime separations, and structural coordinates that standard views may compress or hide.
@@ -206,6 +231,8 @@ Typical outputs include:
 This is the generative branch of OMNIABASE.
 
 Its role is not primarily to judge stability, but to reveal structure.
+
+---
 
 ### 3. Omniabase Cross-Representation Translation
 
@@ -305,6 +332,14 @@ It removes the monopoly of a privileged observer.
 
 This is one of the key transitions from observer-centered description to representation-variable structural analysis.
 
+A phenomenon may be studied:
+
+- with explicit observer frames
+- with reduced observer privilege
+- through comparison between observer-centered and observer-decentered views
+
+That difference may itself become informative.
+
 ---
 
 ## Scope
@@ -337,6 +372,33 @@ It operates on structural traces, not on metaphysical guarantees.
 Its boundary is not a weakness.
 
 It is what keeps the framework coherent.
+
+---
+
+## Openness Without Dogma
+
+OMNIABASE should not harden into the same kind of closure it was created to question.
+
+Its stable core is not a closed list of accepted bases, units, codings, or descriptive forms.
+
+Its stable core is the method:
+
+- no single-view sufficiency
+- representational variation as method
+- cross-representational comparison
+- structural discipline in claims
+- separation of measurement, interpretation, and decision
+
+This means the framework can remain open to:
+
+- non-standard bases
+- variable scales
+- non-fixed units
+- alternative codings
+- observer-centered and observer-decentered comparisons
+- new representational families not yet formalized
+
+OMNIABASE must have a constitution, not a cage.
 
 ---
 
