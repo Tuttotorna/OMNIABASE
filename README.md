@@ -1,5 +1,7 @@
 # OMNIABASE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
+
 OMNIABASE is the microscope of structure.
 
 It does not replace what is already known.  
