@@ -1,459 +1,343 @@
-# OMNIABASE
+# OMNIA — Unified Structural Measurement Engine
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18379486.svg)](https://doi.org/10.5281/zenodo.18379486)
 
-OMNIABASE is the microscope of structure.
+## Canonical Ecosystem Map
 
-It does not replace what is already known.  
-It changes the depth at which a phenomenon becomes structurally visible.  
-Its task is to expose what remains, emerges, or collapses beyond a single representation.
+This repository is part of the **MB-X.01 / OMNIABASE / OMNIA** ecosystem.
 
-**Author:** Massimiliano Brighindi  
-**Contact:** brighissimo@gmail.com
+Canonical architecture and broader ecosystem map:  
+https://github.com/Tuttotorna/lon-mirror/blob/main/ECOSYSTEM.md
+
+**OMNIABASE** defines the general multirepresentational framework.  
+**OMNIA** is its most mature **Diagnostics / Structural Measurement** branch.
+
+Ω · Ω̂ · SEI · IRI · OMNIA-LIMIT  
+**MB-X.01**
+
+**Author:** Massimiliano Brighindi
 
 ---
 
 ## Overview
 
-OMNIABASE is a general multirepresentational framework for structural analysis beyond a single representation.
+**OMNIA** is a **post-hoc structural measurement engine**.
 
-Its core premise is simple:
+It measures **what remains structurally stable when representations change**.
 
-a phenomenon should not be treated as exhausted by one coding, one coordinate system, one numerical base, one symbolic encoding, one observer-centered frame, or one descriptive view.
+OMNIA:
 
-Instead, the same object can be observed across multiple codings in order to distinguish:
+- does **not** interpret meaning
+- does **not** decide
+- does **not** optimize
+- does **not** learn
 
-- what depends on the chosen representation
-- what remains stable beyond it
-- what emerges only through cross-representational analysis
-- what collapses when representational privilege is removed
+OMNIA operates **after inference**, as a **measurement layer**, not as a model.
 
-OMNIABASE is not a single application.
-
-It is the general framework from which multiple structural branches can be derived.
+It is designed to evaluate whether apparent stability survives beyond a single representation.
 
 ---
 
-## Why OMNIABASE
+## Position Inside OMNIABASE
 
-Most systems are studied inside one chosen representation.
+**OMNIABASE** is the general framework.
 
-That is often enough for local description, local performance, or local prediction.
+It begins from one principle:
 
-It is often not enough to determine:
+> a phenomenon should not be treated as exhausted by a single representation.
 
-- which properties belong to the phenomenon itself
-- which properties belong only to the chosen representation
-- which structures remain stable under recoding
-- which structures appear only when the representational frame is varied
-- which apparent regularities are artifacts of a privileged view
-- which hidden coordinates remain invisible only because one descriptive surface dominates the analysis
+From that principle, multiple branches follow.
 
-OMNIABASE exists to address that gap.
+**OMNIA** is the branch focused on one narrower question:
 
-Its method is not based on replacing one representation with another.
+> when something looks stable in one representation, does that stability survive when representation changes?
 
-Its method is based on making representation itself variable, comparable, and structurally analyzable.
-
----
-
-## Philosophical Intuition
-
-OMNIABASE does not change the object.
-
-It changes the depth of access to the object.
-
-A number remains what it is.  
-A phenomenon remains what it is.  
-Its practical function does not disappear.
-
-What changes is the level at which it becomes structurally visible.
-
-In this sense, OMNIABASE can be understood as a microscope of structure:
-
-not to deny what is already seen,  
-but to open access to what remains beyond a single representation.
-
-It does not reject prior knowledge.  
-It extends structural access beyond the assumption that one familiar human-standard representation is enough.
+In that sense, OMNIA is not the whole framework.  
+It is the **Diagnostics / Structural Measurement** branch of OMNIABASE.
 
 ---
 
 ## Core Principle
 
-A phenomenon is not exhausted by a single view.
+> **Structural truth is what survives the removal of representation.**
 
-A representation is never neutral.  
-It is also a constraint, a filter, a distortion channel, and a privilege structure.
+OMNIA evaluates outputs by applying **independent structural transformations** and measuring what remains stable.
 
-For this reason, OMNIABASE treats plural representation as method.
+The result is **a measured boundary**, not a semantic judgment.
 
-The same object can be recoded across multiple bases, encodings, coordinate systems, units, scales, or descriptive views in order to study:
+OMNIA does not ask first:
+- what does this mean?
+- what should be done?
 
-- invariance
-- divergence
-- emergence
-- fragility
-- compatibility
-- hidden structure
-
-The goal is not redundancy.
-
-The goal is to expose structural behavior that single-view analysis tends to miss.
+OMNIA asks first:
+- what remains?
+- what drifts?
+- what saturates?
+- what collapses?
+- what becomes irrecoverable under further transformation?
 
 ---
 
-## What OMNIABASE is
+## What OMNIA Measures
 
-OMNIABASE is a general framework for extracting, testing, and comparing structure across multiple representations.
+OMNIA computes structural metrics such as:
 
-It provides a common foundation for studying:
+- **Ω (Omega)** — invariant residual under transformation
+- **Ω̂ (Omega-set)** — Omega under multiple lenses
+- **ΔΩ / ΔC** — structural drift
+- **SEI** — saturation / exhaustion index
+- **IRI** — irreversibility
+- **OMNIA-LIMIT** — declared boundary where further transformation is structurally futile
 
-- representation-resistant structure
-- representation-dependent structure
-- structural emergence under recoding
-- hidden coordinates
-- cross-representation compatibility
-- structural fragility and collapse under representational change
-
-OMNIABASE is therefore not tied to one domain, one metric family, or one implementation style.
-
-Its unifying condition is not the domain.
-
-Its unifying condition is the existence of cross-representational structure.
+No semantic labels are required.
+No narrative interpretation is required.
+The output is **measurement only**.
 
 ---
 
-## What OMNIABASE is not
+## Architectural Rule
 
-OMNIABASE is not:
-
-- a semantic oracle
-- a universal theory of everything
-- a decision engine
-- a replacement for domain-specific models
-- a claim that all representations are equivalent
-- a guarantee that all hidden structure is recoverable
-
-Its claim is narrower and stronger:
-
-varying representation can reveal structural properties that single-view analysis systematically misses.
-
----
-
-## Foundational Separation
-
-OMNIABASE requires a strict separation between:
-
-- measurement
-- interpretation
-- decision
-
-Measurement asks:
-
-what remains, emerges, diverges, or collapses across representations?
-
-Interpretation asks:
-
-what does this mean inside a model, a theory, or a domain?
-
-Decision asks:
-
-what action should follow?
-
-These layers must not be collapsed into one.
+**Measurement ≠ cognition ≠ decision**
 
 This separation is non-negotiable.
 
----
+- **Measurement** asks what remains invariant, what drifts, what saturates, and what collapses.
+- **Cognition** asks what those measurements mean inside a model or domain.
+- **Decision** asks what action should follow.
 
-## The Three Canonical Families
-
-From the core OMNIABASE principle, three canonical branches follow.
-
-### 1. Omniabase Diagnostics
-
-This branch studies whether observed structure remains stable beyond a single representation.
-
-It focuses on:
-
-- stability
-- fragility
-- drift
-- regime shifts
-- proximity to collapse
-- representation dependence
-
-Central question:
-
-**When something looks stable in one representation, does that stability survive when representation changes?**
-
-Typical outputs include:
-
-- robustness scores
-- fragility signals
-- divergence indicators
-- instability alerts
-- post-hoc gates
-- escalation triggers
-
-This is the defensive branch of OMNIABASE.
-
-Its role is to detect when apparent stability is structurally weak.
+OMNIA belongs to the first layer only.
 
 ---
 
-### 2. Omniabase Coordinate Discovery
+## Architecture (High Level)
 
-This branch uses multiple representations to expose hidden axes, latent variables, regime separations, and structural coordinates that standard views may compress or hide.
+```text
+Input / Model Output
+        ↓
+OMNIA lenses
+(base, time, causality, token, constraints, compression, permutation, ...)
+        ↓
+Ω / Ω̂
+        ↓
+SEI · IRI
+        ↓
+OMNIA-LIMIT (STOP)
 
-It focuses on:
+OMNIA is therefore:
 
-- hidden coordinates
-- latent factors
-- invisible symmetries
-- regime separations
-- better descriptive axes
-- more faithful reductions of complex phenomena
+post-hoc
 
-Central question:
+model-agnostic
 
-**What structure becomes visible only when a phenomenon is observed across multiple codings rather than a single one?**
+composable
 
-Typical outputs include:
+structural
 
-- new descriptive coordinates
-- structural maps
-- latent variables
-- separations between generators or regimes
-- axes useful for modeling and forecasting
+non-semantic by design
 
-This is the generative branch of OMNIABASE.
 
-Its role is not primarily to judge stability, but to reveal structure.
-
----
-
-### 3. Omniabase Cross-Representation Translation
-
-This branch studies compatibility and shared structural residue across different descriptions of the same object.
-
-It focuses on:
-
-- compatibility between descriptions
-- alignment between formalisms
-- invariant residues
-- dependence on language or encoding
-- bridges across views
-
-Central question:
-
-**When two descriptions appear different, how much are they still describing the same structural object?**
-
-Typical outputs include:
-
-- compatibility scores
-- alignment measures
-- translatability maps
-- incompatibility signals
-- shared structural residues
-
-This is the interface branch of OMNIABASE.
-
-Its role is to measure structural continuity across descriptive boundaries.
 
 ---
 
-## Canonical Branch Repositories
+Repository Structure
 
-The current public ecosystem is organized around the following repositories:
+OMNIA/
+├─ omnia/                     # Core engine
+│  ├─ engine/
+│  ├─ lenses/
+│  ├─ omega.py
+│  └─ __init__.py
+├─ examples/
+│  └─ quick_omnia_test.py     # ~10s smoke test
+├─ docs/
+├─ pyproject.toml
+├─ README.md
+└─ .gitignore
 
-- **OMNIABASE** — umbrella framework repository  
-  <https://github.com/Tuttotorna/OMNIABASE>
+Main areas:
 
-- **OMNIA** — Diagnostics / Structural Measurement branch  
-  <https://github.com/Tuttotorna/OMNIA>
+omnia/ -> core structural measurement engine
 
-- **omniabase-coordinate-discovery** — Coordinate Discovery branch  
-  <https://github.com/Tuttotorna/omniabase-coordinate-discovery>
+examples/ -> runnable examples and smoke tests
 
-- **omega-translator** — Cross-Representation Translation branch  
-  <https://github.com/Tuttotorna/omega-translator>
+docs/ -> architectural and methodological notes
 
-- **observer-suspension** — epistemic pre-layer  
-  <https://github.com/Tuttotorna/observer-suspension>
 
-These repositories should be read as distinct roles inside one architecture, not as isolated or competing projects.
-
----
-
-## Recommended Reading Order
-
-A newcomer should ideally read the ecosystem in this order:
-
-1. **OMNIABASE** — the general framework
-2. **observer-suspension** — the epistemic pre-layer
-3. **OMNIA** — Diagnostics / Structural Measurement
-4. **omniabase-coordinate-discovery** — hidden coordinates and latent structure
-5. **omega-translator** — structural residue across representational boundaries
-
-This preserves clarity:
-first the principle, then the decentering move, then the three canonical branches.
 
 ---
 
-## Unified View
+Installation (Editable)
 
-OMNIABASE begins from one principle:
+From the repository root:
 
-the same phenomenon should not be assumed to be fully captured by one representation.
+pip install -e . -U
 
-From that principle, three canonical questions follow:
+Verify import:
 
-- if the question is whether the structure holds -> **Diagnostics**
-- if the question is what hidden structure emerges -> **Coordinate Discovery**
-- if the question is how different descriptions still relate to the same object -> **Cross-Representation Translation**
+python -c "import omnia; print('OK import omnia', omnia.__version__)"
 
-These are not separate theories.
-
-They are three consequences of the same foundational move:
-
-removing the privilege of a single representation.
 
 ---
 
-## Observer Privilege
+Quick Smoke Test
 
-Human-centered description, standard coordinates, dominant numerical systems, single-sensor views, and default linguistic frames are treated as local conveniences, not absolute anchors.
+Run:
 
-OMNIABASE does not eliminate observation.
+python examples/quick_omnia_test.py
 
-It removes the monopoly of a privileged observer.
+Expected output (example):
 
-This is one of the key transitions from observer-centered description to representation-variable structural analysis.
+Ω̂ estimate: <value>
+OK: OMNIA core executed
 
-A phenomenon may be studied:
+This confirms that:
 
-- with explicit observer frames
-- with reduced observer privilege
-- through comparison between observer-centered and observer-decentered views
+the engine loads correctly
 
-That difference may itself become informative.
+the Omega pipeline executes
 
----
+no external runtime coupling is required
 
-## Scope
 
-OMNIABASE applies wherever a phenomenon can be rendered into multiple workable codings, encodings, projections, or descriptive views.
-
-This may include:
-
-- dynamical systems
-- symbolic sequences
-- model outputs
-- sensor streams
-- mathematical objects
-- formal descriptions
-- multimodal correspondences
-- human-AI structural interfaces
-
-The framework is unified not by subject matter, but by the possibility of structural comparison across representations.
 
 ---
 
-## Boundary
+Intended Use
 
-OMNIABASE does not cover what leaves no workable trace, no transformable structure, and no comparable residue.
+OMNIA is designed to be:
 
-It does not directly measure pure meaning, pure interiority, or absolute causation in themselves.
+model-agnostic
 
-It operates on structural traces, not on metaphysical guarantees.
+post-hoc
+
+composable
+
+institution-agnostic
+
+
+Typical use cases include:
+
+hallucination boundary detection
+
+structural consistency checks
+
+saturation / collapse detection
+
+evaluation of irreducible residuals
+
+research on invariance and structural limits
+
+post-hoc auditing of model outputs
+
+representation-dependent fragility sensing
+
+
+OMNIA is especially useful where outputs look acceptable on the surface but may remain structurally weak under transformation.
+
+
+---
+
+What OMNIA Is Not
+
+OMNIA is not:
+
+a classifier
+
+a judge
+
+an alignment system
+
+a training loop
+
+a semantic interpreter
+
+a truth oracle
+
+a replacement for domain-specific models
+
+
+OMNIA measures structure only.
+
+It does not replace reasoning. It does not replace interpretation. It does not replace decision.
+
+It measures structural behavior after an output already exists.
+
+
+---
+
+Scope and Boundary
+
+OMNIA operates on structural traces.
+
+It does not directly measure:
+
+pure meaning in itself
+
+pure interiority in itself
+
+final causation in itself
+
+metaphysical truth in itself
+
+
+It works on what can be rendered into comparable structural residues under controlled representational variation.
 
 Its boundary is not a weakness.
 
-It is what keeps the framework coherent.
+It is what keeps the engine coherent.
+
 
 ---
 
-## Openness Without Dogma
+Relationship to the Broader Ecosystem
 
-OMNIABASE should not harden into the same kind of closure it was created to question.
+At a high level:
 
-Its stable core is not a closed list of accepted bases, units, codings, or descriptive forms.
+OMNIABASE -> umbrella framework
 
-Its stable core is the method:
+OMNIA -> Diagnostics / Structural Measurement branch
 
-- no single-view sufficiency
-- representational variation as method
-- cross-representational comparison
-- structural discipline in claims
-- separation of measurement, interpretation, and decision
+omniabase-coordinate-discovery -> Coordinate Discovery branch
 
-This means the framework can remain open to:
+omega-translator and related repos -> Cross-Representation Translation branch
 
-- non-standard bases
-- variable scales
-- non-fixed units
-- alternative codings
-- observer-centered and observer-decentered comparisons
-- new representational families not yet formalized
+observer-suspension -> epistemic pre-layer
 
-OMNIABASE must have a constitution, not a cage.
+
+OMNIA should therefore be read not as an isolated universal system, but as one operational branch inside a broader multirepresentational architecture.
+
 
 ---
 
-## Repository Role
+Status
 
-This repository is the umbrella repository of the OMNIABASE framework.
+Core engine: stable
 
-Its purpose is to host:
+Smoke test: present
 
-- the foundational principle
-- the common architecture
-- the canonical branch taxonomy
-- the shared language of the framework
-- the map of the ecosystem
-- links to specialized branch repositories
+Architecture: frozen
 
-This repository defines the framework itself, not any single branch, implementation, or local benchmark.
+OMNIA-LIMIT: defined
 
-This repository is not the primary place for branch-specific benchmarks, code, or narrow experimental claims.
+Training loop: absent by design
 
-Those belong in branch repositories.
+
+OMNIA is intended to remain bounded and structurally disciplined.
+
 
 ---
 
-## Ecosystem Orientation
+Author & Origin
 
-The intended ecosystem shape is:
+OMNIA / MB-X.01
+Massimiliano Brighindi
 
-- `OMNIABASE` -> general framework
-- Diagnostics branch -> specialized repositories
-- Coordinate Discovery branch -> specialized repositories
-- Cross-Representation Translation branch -> specialized repositories
-- epistemic pre-layers and satellites -> separate but linked
+Logical Origin Node (L.O.N.)
+Structural measurement without narrative.
 
-This preserves both unity and specialization.
 
 ---
 
-## Summary
+License
 
-OMNIABASE is a general framework for structural analysis across multiple representations.
-
-It is built on a simple idea:
-
-a phenomenon is not exhausted by one view.
-
-By observing the same object across multiple codings, OMNIABASE aims to distinguish:
-
-- representation-dependent structure
-- representation-resistant structure
-- emergent cross-view structure
-- structural collapse under representational change
-
-Its three canonical families are:
-
-- Diagnostics
-- Coordinate Discovery
-- Cross-Representation Translation
+MIT License
