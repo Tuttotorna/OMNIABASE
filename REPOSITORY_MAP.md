@@ -373,4 +373,4 @@ Around it stand:
 
 The purpose of this map is to preserve one rule above all:
 
-the framework must remain more legible than its history
+the framework must remain more legible than its history.
