@@ -6,8 +6,8 @@ It does not replace what is already known.
 It changes the depth at which a phenomenon becomes structurally visible.  
 Its task is to expose what remains, emerges, or collapses beyond a single representation.
 
-**Author:** Massimiliano Brighindi
-brighissimo@gmail.com
+**Author:** Massimiliano Brighindi  
+**Contact:** brighissimo@gmail.com
 
 ---
 
@@ -240,19 +240,19 @@ Its role is to measure structural continuity across descriptive boundaries.
 The current public ecosystem is organized around the following repositories:
 
 - **OMNIABASE** — umbrella framework repository  
-  `https://github.com/Tuttotorna/OMNIABASE`
+  <https://github.com/Tuttotorna/OMNIABASE>
 
 - **OMNIA** — Diagnostics / Structural Measurement branch  
-  `https://github.com/Tuttotorna/OMNIA`
+  <https://github.com/Tuttotorna/OMNIA>
 
 - **omniabase-coordinate-discovery** — Coordinate Discovery branch  
-  `https://github.com/Tuttotorna/omniabase-coordinate-discovery`
+  <https://github.com/Tuttotorna/omniabase-coordinate-discovery>
 
 - **omega-translator** — Cross-Representation Translation branch  
-  `https://github.com/Tuttotorna/omega-translator`
+  <https://github.com/Tuttotorna/omega-translator>
 
 - **observer-suspension** — epistemic pre-layer  
-  `https://github.com/Tuttotorna/observer-suspension`
+  <https://github.com/Tuttotorna/observer-suspension>
 
 These repositories should be read as distinct roles inside one architecture, not as isolated or competing projects.
 
