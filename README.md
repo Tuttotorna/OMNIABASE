@@ -22,7 +22,7 @@ Its task is simple:
 
 ![OMNIABASE archive overview](docs/images/omniabase_archive_v1.png)
 
-*OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, and bounded structural profiling.*
+*OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, regime logic, and bounded structural profiling.*
 
 ---
 
@@ -70,36 +70,6 @@ The purpose is not to deny the standard view.
 The purpose is stricter:
 
 **to show that a standard view can remain correct while still being structurally incomplete.**
-
----
-
-## One Concrete Example
-
-![Coordinate Discovery example](docs/bifurcation.png)
-
-A standard reading says:
-
-- this system undergoes a familiar bifurcation and then enters a chaotic regime
-
-That reading is not wrong.  
-But it is still a single representation.
-
-OMNIABASE asks a different question:
-
-- what becomes visible when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
-
-Possible outcomes include:
-
-- earlier structural separation between regimes
-- weak multibase signatures invisible in the ordinary view
-- hidden descriptive axes compressed into one surface picture
-- measurable differences between trajectories that look locally similar in one frame
-
-OMNIABASE does not replace the classical view.  
-It tests whether the classical view is structurally sufficient.
-
-For the branch most directly related to this type of example, see:  
-**[omniabase-coordinate-discovery](https://github.com/Tuttotorna/omniabase-coordinate-discovery)**
 
 ---
 
@@ -244,6 +214,43 @@ expose the minimal shape of the framework in code
 
 It does not define the final metric theory.
 It does not replace specialized branch implementations.
+
+
+---
+
+One Concrete Example
+
+
+
+A standard reading says:
+
+this system undergoes a familiar bifurcation and then enters a chaotic regime
+
+
+That reading is not wrong.
+But it is still a single representation.
+
+OMNIABASE asks a different question:
+
+what becomes visible when the same trajectory is recoded across multiple representations instead of being observed only in the standard plot?
+
+
+Possible outcomes include:
+
+earlier structural separation between regimes
+
+weak multibase signatures invisible in the ordinary view
+
+hidden descriptive axes compressed into one surface picture
+
+measurable differences between trajectories that look locally similar in one frame
+
+
+OMNIABASE does not replace the classical view.
+It tests whether the classical view is structurally sufficient.
+
+For the branch most directly related to this type of example, see:
+omniabase-coordinate-discovery
 
 
 ---
