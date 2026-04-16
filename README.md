@@ -27,6 +27,26 @@ If you want the shortest path through the ecosystem, read:
 
 ---
 
+## Canonical Demonstration
+
+If you want the central public demonstration of OMNIABASE, read:
+
+- [OMNIABASE_CANONICAL_DEMONSTRATION_v1.md](./docs/OMNIABASE_CANONICAL_DEMONSTRATION_v1.md)
+
+This file is the canonical public object of the framework:
+
+- one phenomenon
+- one classical baseline
+- one multirepresentational reading
+- one visible structural difference
+- one bounded conclusion
+
+Its purpose is simple:
+
+**to show that a standard view can remain correct while still being structurally incomplete.**
+
+---
+
 ## Operational Files
 
 If you want the first operational layer of OMNIABASE, read:
@@ -401,19 +421,22 @@ A newcomer should read the ecosystem in this order:
 2. FIRST_PROOF.md — the first externally legible proof
 
 
-3. OMNIABASE — the general framework
+3. OMNIABASE_CANONICAL_DEMONSTRATION_v1.md — the central public demonstration
 
 
-4. OMNIA — structural measurement
+4. OMNIABASE — the general framework
 
 
-5. lon-mirror — operational and runtime-facing evidence
+5. OMNIA — structural measurement
 
 
-6. Pre-Deployment-Structural-Gate — deployment-facing gate
+6. lon-mirror — operational and runtime-facing evidence
 
 
-7. omnia-limit — formal stop boundary
+7. Pre-Deployment-Structural-Gate — deployment-facing gate
+
+
+8. omnia-limit — formal stop boundary
 
 
 
@@ -445,7 +468,7 @@ omnia-gsm8k-claim
 HASC-Human-AI-Structural-Compatibility-Protocol
 
 
-This preserves clarity: first the shortest proof path, then the first readable proof, then the framework, then the strongest public branches.
+This preserves clarity: first the shortest proof path, then the first readable proof, then the central public demonstration, then the framework, then the strongest public branches.
 
 
 ---
@@ -600,6 +623,8 @@ the public proof path
 
 the first public proof landing
 
+the canonical public demonstration
+
 links to specialized branch repositories
 
 
@@ -678,4 +703,3 @@ formal stop boundary
 OMNIABASE is not a replacement for domain knowledge.
 
 It is a framework for testing whether a single representation was enough.
-
