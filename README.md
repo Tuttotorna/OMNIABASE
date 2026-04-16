@@ -2,7 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
 
-![OMNIABASE empirical proof](docs/omniabase_empirical_proof.png)
 
 OMNIABASE is a multirepresentational framework for structural analysis.
 
