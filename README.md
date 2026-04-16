@@ -272,6 +272,8 @@ The current public ecosystem is organized around the following repositories:
 
 These repositories should be read as distinct roles inside one architecture, not as isolated or competing projects.
 
+Additional supporting repositories, diagnostics extensions, and historical satellites are mapped in **[REPOSITORY_MAP.md](https://github.com/Tuttotorna/OMNIABASE/blob/main/REPOSITORY_MAP.md)**.
+
 ---
 
 ## Recommended Reading Order
