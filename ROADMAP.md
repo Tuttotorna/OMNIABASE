@@ -4,15 +4,16 @@
 
 This document defines the development roadmap of the Omniabase framework.
 
-Its purpose is not to predict every future branch or repository.
+Its purpose is not to promise everything at once.
 
-Its purpose is to define the ordered phases through which Omniabase can become:
+Its purpose is to define the ordered path through which Omniabase can become:
 
 - conceptually stable
 - architecturally legible
 - branch-complete
-- implementation-ready
+- operationally credible
 - externally testable
+- product-relevant without losing its framework identity
 
 This roadmap concerns the framework as a whole, not one isolated branch.
 
@@ -20,7 +21,7 @@ This roadmap concerns the framework as a whole, not one isolated branch.
 
 ## 1. Roadmap principle
 
-Omniabase should not grow by uncontrolled expansion.
+OMNIABASE should not grow by uncontrolled expansion.
 
 It should grow by ordered stabilization.
 
@@ -28,9 +29,10 @@ That means:
 
 1. first define the framework
 2. then define the branch taxonomy
-3. then connect implementations
-4. then build reference methods
-5. then support external use and testing
+3. then connect the existing repositories under a stable hierarchy
+4. then strengthen the first operational branch
+5. then expose the next frontier branches
+6. then support external testing and adoption
 
 The goal is not repository multiplication.
 
@@ -42,17 +44,18 @@ The goal is structural maturity.
 
 ### Objective
 
-Establish Omniabase as a stable general framework.
+Establish OMNIABASE as a stable general framework.
 
 ### Required outcomes
 
 - define the general README
 - define the foundational principles
+- define the philosophical intuition
 - define the architectural structure
 - define the canonical branches
 - define the shared lexicon
 - define the repository map
-- define the philosophical intuition of the framework
+- define the contribution boundary
 
 ### Repository role
 
@@ -62,11 +65,23 @@ This phase belongs primarily to:
 
 ### Success condition
 
-Omniabase can be understood as a general framework without requiring prior knowledge of satellite repositories.
+A serious reader can understand Omniabase as a general framework without first needing the history of all satellite repositories.
 
-### Current focus
+### Current state
 
-This phase is the current priority.
+This phase is substantially established.
+
+The framework now has:
+
+- a general README
+- a philosophy document
+- foundational documents
+- architectural taxonomy
+- canonical branches
+- ecosystem mapping
+- roadmap and contribution principles
+
+This means OMNIABASE now exists as a real umbrella framework, not only as an intuition.
 
 ---
 
@@ -74,7 +89,7 @@ This phase is the current priority.
 
 ### Objective
 
-Clarify, stabilize, and distinguish the three canonical branches of Omniabase.
+Clarify, stabilize, and distinguish the three canonical branches of OMNIABASE.
 
 ### Canonical branches
 
@@ -85,20 +100,42 @@ Clarify, stabilize, and distinguish the three canonical branches of Omniabase.
 ### Required outcomes
 
 - define each branch clearly
-- link each branch to existing repositories where available
 - separate branch identity from implementation details
-- identify missing or underdeveloped branches
 - prevent branch overlap from becoming conceptual confusion
+- identify which repositories already embody each branch
+- identify where a branch is still conceptually present but not yet fully formalized
 
 ### Known current state
 
-- Diagnostics is the most mature branch
-- Coordinate Discovery has a clear active repository embodiment
-- Cross-Representation Translation exists conceptually and partially in existing repositories, but may require stronger formalization
+#### Diagnostics
+This is the most mature branch.
+
+Primary repositories:
+- `OMNIA`
+- `lon-mirror`
+- `omnia-limit`
+- `Pre-Deployment-Structural-Gate`
+- `OMNIA-RADAR`
+
+#### Coordinate Discovery
+This is the clearest frontier branch.
+
+Primary repository:
+- `omniabase-coordinate-discovery`
+
+#### Cross-Representation Translation
+This branch is conceptually clear but still more distributed.
+
+Current repositories:
+- `omega-translator`
+- `HASC-Human-AI-Structural-Compatibility-Protocol`
 
 ### Success condition
 
-A reader can distinguish the branches without confusing them with each other or with the umbrella framework.
+A reader can distinguish the branches without confusing:
+- the framework with one branch
+- one branch with another
+- the branch-facing repository with its deeper historical core
 
 ---
 
@@ -111,22 +148,39 @@ Order the existing repositories into a readable ecosystem.
 ### Required outcomes
 
 - classify repositories by role
-- identify umbrella, branch, pre-layer, and satellite repositories
-- reduce ecosystem ambiguity
+- distinguish umbrella, branch, pre-layer, and satellite repositories
+- reduce ambiguity around centrality
 - define which repositories are canonical, exploratory, historical, or adjacent
-- prevent naming overlap from causing architectural confusion
+- make the framework more legible than the chronology of its emergence
 
-### Practical effects
+### Core structural hierarchy
 
-This phase should make the ecosystem appear as a structured architecture rather than as a loose collection of related repositories.
+The intended stable hierarchy is:
+
+- `OMNIABASE` -> general framework
+- `OMNIA` -> canonical Diagnostics / Structural Measurement branch
+- `lon-mirror` -> historical and operational core of the OMNIA diagnostics lineage
+- `omniabase-coordinate-discovery` -> Coordinate Discovery branch
+- `omega-translator` / `HASC` -> Translation / Compatibility lineage
+- `observer-suspension` -> epistemic pre-layer
+- other repositories -> satellites, historical layers, or adjacent lines
 
 ### Success condition
 
-The framework is more legible than the history of its development.
+The ecosystem can be entered through architecture rather than through historical accident.
+
+### Current state
+
+This phase is partially completed:
+- `OMNIABASE` has been stabilized as the center
+- `OMNIA` has been repositioned as the first strong branch
+- `lon-mirror` has been repositioned as deep diagnostics core
+
+Further consolidation remains possible, but the main hierarchy now exists.
 
 ---
 
-## 5. Phase IV — Branch Reference Documents
+## 5. Phase IV — Branch Documentation and Method Freezing
 
 ### Objective
 
@@ -140,8 +194,9 @@ For each branch, define:
 - valid input types
 - representational operations
 - structural outputs
-- branch-specific limits
-- branch-specific implementation directions
+- architectural boundaries
+- intended adoption path
+- relation to the umbrella framework
 
 ### Expected branch documents
 
@@ -151,7 +206,13 @@ Examples may include:
 - `COORDINATE_DISCOVERY.md`
 - `CROSS_TRANSLATION.md`
 
-These may live in the umbrella repository as reference documents before or alongside branch-specific repositories.
+or equivalent documentation distributed across branch repositories.
+
+### Priority
+
+The first branch to freeze methodologically is:
+
+- **Diagnostics**, because it is already the most mature and externally legible.
 
 ### Success condition
 
@@ -159,17 +220,160 @@ Each branch becomes methodologically intelligible, not only conceptually named.
 
 ---
 
-## 6. Phase V — Reference Implementations
+## 6. Phase V — First Operational Face
 
 ### Objective
 
-Create minimal reference implementations that show how Omniabase becomes operational.
+Use one branch as the first externally legible operational face of OMNIABASE.
+
+### Chosen priority
+
+The first operational face should be:
+
+- **OMNIA**
+
+### Reason
+
+OMNIA is currently:
+
+- the most mature branch
+- the most bounded branch
+- the easiest branch to explain
+- the easiest branch to test
+- the branch closest to external integration and productization
+
+### Repository roles
+
+- `OMNIABASE` remains the umbrella framework
+- `OMNIA` becomes the clean public face of Diagnostics
+- `lon-mirror` remains the deeper operational and historical core of the same branch
+
+### Success condition
+
+An external reader can understand OMNIA as:
+- useful
+- bounded
+- real
+- operational
+without needing to absorb the entire ecosystem first.
+
+### Current state
+
+This phase is actively underway.
+
+---
+
+## 7. Phase VI — Deep Diagnostics Consolidation
+
+### Objective
+
+Strengthen the Diagnostics branch without turning it into the whole framework.
+
+### Required outcomes
+
+- preserve the hard architectural boundary of OMNIA
+- keep `measurement != cognition != decision`
+- clarify the minimal adoption path
+- preserve evidence centers and runtime paths
+- keep `lon-mirror` as the deep lab/archive rather than the public face
+- prevent diagnostics from swallowing the whole meaning of OMNIABASE
 
 ### Important rule
 
-Reference implementations should not attempt to exhaust the framework.
+Diagnostics must remain:
+- strong
+- narrow
+- useful
+- bounded
 
-They should demonstrate one valid and legible operational path.
+Its value comes from precision, not inflation.
+
+### Success condition
+
+OMNIA becomes more credible without becoming falsely universal.
+
+---
+
+## 8. Phase VII — Coordinate Discovery Expansion
+
+### Objective
+
+Strengthen the second major branch:
+**Omniabase Coordinate Discovery**
+
+### Reason
+
+This is the branch most closely aligned with the deeper frontier intuition of OMNIABASE:
+
+not only testing whether structure holds,
+but revealing what hidden structure becomes visible when representational privilege is reduced.
+
+### Required outcomes
+
+- sharpen the branch identity
+- define its core outputs more clearly
+- distinguish it from diagnostics
+- identify the strongest current demonstrations
+- strengthen the path from philosophical intuition to methodological clarity
+
+### Repository
+
+Primary repository:
+- `omniabase-coordinate-discovery`
+
+### Success condition
+
+Coordinate Discovery becomes clearly recognizable as:
+- not a side experiment
+- not just diagnostics in disguise
+- not only a speculative branch
+but a genuine second family of OMNIABASE.
+
+---
+
+## 9. Phase VIII — Cross-Representation Translation Consolidation
+
+### Objective
+
+Strengthen the Translation / Compatibility branch.
+
+### Reason
+
+This branch is necessary for the framework to be complete.
+
+Without it, OMNIABASE risks becoming only:
+- defensive diagnostics
+- generative coordinate discovery
+
+while losing the branch that studies structural continuity across descriptions.
+
+### Required outcomes
+
+- unify the role of `omega-translator`
+- connect `HASC` more clearly to the branch identity
+- define compatibility, invariant residue, and translatability as stable outputs
+- prepare, if needed, a clearer public-facing branch identity
+
+### Success condition
+
+Cross-Representation Translation becomes a branch that is:
+- conceptually stable
+- methodologically meaningful
+- externally understandable
+
+---
+
+## 10. Phase IX — Reference Implementations
+
+### Objective
+
+Create minimal, clean, externally understandable reference implementations.
+
+### Important rule
+
+Reference implementations should not try to exhaust the framework.
+
+They should demonstrate one valid, bounded, and legible operational path.
 
 ### Likely priorities
 
@@ -177,39 +381,36 @@ They should demonstrate one valid and legible operational path.
 Most likely the first strong implementation path.
 
 Possible forms:
-
 - post-hoc structural gate
 - fragility detector
 - representation-dependence sensor
 - early instability detector
 
 #### B. Coordinate Discovery reference implementation
-A second strong path.
+Second strong path.
 
 Possible forms:
-
 - latent coordinate extraction
 - hidden axis detection
 - regime separation mapping
 - multi-coding structural maps
 
-#### C. Cross-Representation Translation reference implementation
-A later but important path.
+#### C. Translation reference implementation
+Third path.
 
 Possible forms:
-
 - compatibility layer
-- translation residue estimator
-- model-to-model structural alignment
+- structural alignment engine
+- residue estimator across descriptions
 - multimodal structural bridge
 
 ### Success condition
 
-At least one branch has a clean, minimal, externally understandable reference implementation.
+At least one branch has a clean reference implementation that a serious outsider can run, inspect, and understand.
 
 ---
 
-## 7. Phase VI — External Testing
+## 11. Phase X — External Testing
 
 ### Objective
 
@@ -217,27 +418,27 @@ Move from internal coherence to external pressure.
 
 ### Required outcomes
 
-- apply reference implementations to real or high-value datasets
-- test branch outputs under noise, recoding stress, and practical constraints
-- identify false positives, blind spots, and unstable assumptions
-- refine recoding policies and structural outputs
-- verify whether branch claims survive outside controlled environments
+- test branch outputs on stronger datasets
+- test under noise, recoding stress, and real constraints
+- identify false positives and blind spots
+- clarify which claims survive outside synthetic or narrow settings
+- preserve boundedness while increasing credibility
 
 ### Important rule
 
-Omniabase should not be treated as externally validated before branch-level pressure has been applied.
+OMNIABASE should not be treated as externally validated before branch-level pressure has been applied.
 
 ### Success condition
 
-At least one branch demonstrates externally meaningful signal under conditions that are not purely internal or synthetic.
+At least one branch shows externally meaningful signal under conditions that are not merely internal or synthetic.
 
 ---
 
-## 8. Phase VII — Product Direction
+## 12. Phase XI — Product Direction
 
 ### Objective
 
-Translate one or more Omniabase branches into externally useful products, layers, or toolkits.
+Translate one or more branches into externally useful products, toolkits, or integration layers.
 
 ### Principle
 
@@ -248,6 +449,7 @@ Products emerge from branches.
 ### Possible product directions
 
 - diagnostics layer for model outputs
+- structural trust gate
 - structural monitoring SDK
 - latent coordinate discovery toolkit
 - cross-representation compatibility engine
@@ -259,111 +461,117 @@ Products must remain downstream of the framework, not fused with it.
 
 ### Success condition
 
-One branch becomes usable by external teams without requiring full immersion into the entire ecosystem.
+One branch becomes usable by an external team without requiring full immersion into the whole ecosystem.
 
 ---
 
-## 9. Parallel principle — Controlled openness
+## 13. Parallel Principle — Controlled Openness
 
-Omniabase should remain open to future branches.
+OMNIABASE must remain open to future branches.
 
 However, future growth must be controlled.
 
-A new branch should only be recognized when it has:
+A new branch should be recognized only if it has:
 
 - a distinct central question
 - distinct structural outputs
 - methodological coherence
 - non-trivial difference from existing branches
+- enough scope to justify independent recognition
 
-This prevents framework inflation.
+This prevents branch inflation.
 
 ---
 
-## 10. Openness without dogma
+## 14. Openness Without Dogma
 
-Omniabase should not harden into the same kind of closure it was created to question.
+OMNIABASE must not harden into the same kind of closure it was created to question.
 
-This means that the framework must preserve a distinction between:
+Its stable core is not a closed list of accepted:
 
-- stable principles
-- open representational forms
+- bases
+- units
+- codings
+- coordinate systems
+- descriptive forms
+- observer frames
 
-Stable principles include:
+Its stable core is the method:
 
 - no single-view sufficiency
 - representational variation as method
 - cross-representational comparison
-- separation of measurement, interpretation, and decision
 - structural discipline in claims
+- separation of measurement, interpretation, and decision
 
-Open representational forms may include:
+This means the framework should remain open to:
 
-- new coding families
-- new recoding strategies
 - non-standard bases
 - variable scales
-- dynamic units
-- alternative descriptive geometries
-- observer-centered and observer-decentered comparisons
+- non-fixed units
+- dynamic granularities
+- alternative coding families
+- observer-centered and observer-decentered comparison
+- new representational families not yet formalized
 
-The framework should therefore have a constitution, not a cage.
+OMNIABASE must have a constitution, not a cage.
 
 ---
 
-## 11. Known current priorities
+## 15. Current priorities
 
 At the present stage, the most important priorities are:
 
 ### Priority 1
-Complete and refine the umbrella repository foundation.
+Keep the umbrella repository stable and clean.
 
 ### Priority 2
-Stabilize the branch taxonomy.
+Keep OMNIA strong, bounded, and externally legible.
 
 ### Priority 3
-Clarify ecosystem mapping.
+Preserve lon-mirror as deep diagnostics core, not as false umbrella.
 
 ### Priority 4
-Identify the first reference implementation path.
+Strengthen Coordinate Discovery as the next frontier branch.
 
 ### Priority 5
-Preserve a strict boundary between framework-level language and branch-level claims.
+Clarify the Translation branch enough that it is no longer only distributed intuition.
 
 ### Priority 6
-Keep the framework open to representational expansion without letting it dissolve into vagueness.
+Avoid repository drift, framework inflation, and re-dogmatization.
 
 ---
 
-## 12. Development risks
+## 16. Development risks
 
 The roadmap must explicitly guard against the following risks.
 
 ### Risk A — Premature product inflation
-Trying to present Omniabase as a complete product before the framework is stable.
+Trying to present OMNIABASE as a complete product before the framework and branches are stable.
 
 ### Risk B — Branch confusion
-Treating Diagnostics, Coordinate Discovery, and Translation as vague synonyms rather than distinct operational families.
+Treating Diagnostics, Coordinate Discovery, and Translation as vague synonyms rather than distinct families.
 
 ### Risk C — Ecosystem drift
-Allowing new repositories to appear without architectural classification.
+Allowing repositories to multiply without architectural classification.
 
 ### Risk D — Overclaim
-Claiming universal capability before branch-level evidence exists.
+Claiming universality before branch-level evidence exists.
 
 ### Risk E — Historical overload
 Letting the history of development make the framework harder to read than it needs to be.
 
 ### Risk F — Re-dogmatization
-Turning Omniabase into a new closed canon of accepted representations, bases, units, or descriptive forms.
+Turning OMNIABASE into a new rigid canon of accepted representational forms.
 
-This would violate the spirit of the framework itself.
+### Risk G — Branch swallowing
+Letting one successful branch, especially Diagnostics, be mistaken for the whole framework.
 
 ---
 
-## 13. Long-term direction
+## 17. Long-term direction
 
-The long-term direction of Omniabase is not to become one monolithic system.
+The long-term direction of OMNIABASE is not to become one monolithic system.
 
 Its long-term direction is to become a stable general framework from which multiple structural methods can be derived.
 
@@ -376,38 +584,42 @@ In that sense, maturity means:
 - externally testable branch products
 - openness to deeper representational exploration without loss of rigor
 
-Omniabase should aim to become a framework that is broader than any one branch, but clearer than the total history of its emergence.
+OMNIABASE should become broader than any one branch, but clearer than the total history of its emergence.
 
 ---
 
-## 14. Strategic horizon
+## 18. Strategic horizon
 
-If Omniabase succeeds, its value will not come only from solving one local task.
+If OMNIABASE succeeds, its value will not come only from solving one local task.
 
 Its deeper value will come from changing the point of departure of inquiry.
 
-Instead of assuming that one dominant representation is enough, Omniabase opens the possibility that new structure may become visible when representational privilege is reduced.
+Instead of assuming that one dominant representation is enough, OMNIABASE opens the possibility that new structure may become visible when representational privilege is reduced.
 
 This does not guarantee discovery.
 
-But it may create the conditions under which previously inaccessible structure becomes finally legible.
+But it can create the conditions under which previously inaccessible structure becomes finally legible.
 
 That horizon should remain visible throughout the roadmap, even while each phase stays disciplined and concrete.
 
 ---
 
-## 15. Summary
+## 19. Summary
 
-The Omniabase roadmap proceeds in ordered phases:
+The OMNIABASE roadmap proceeds in ordered phases:
 
 1. Foundation
 2. Canonical Branch Stabilization
 3. Ecosystem Consolidation
-4. Branch Reference Documents
-5. Reference Implementations
-6. External Testing
-7. Product Direction
+4. Branch Documentation and Method Freezing
+5. First Operational Face
+6. Deep Diagnostics Consolidation
+7. Coordinate Discovery Expansion
+8. Cross-Representation Translation Consolidation
+9. Reference Implementations
+10. External Testing
+11. Product Direction
 
 This order is intentional.
 
-Omniabase should mature by structural stabilization first, and by productization only afterwards.
+OMNIABASE should mature by structural stabilization first, by branch discipline second, and by productization only afterwards.
