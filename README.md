@@ -18,6 +18,14 @@ Its task is simple:
 
 ---
 
+## Overview
+
+![OMNIABASE archive overview](docs/images/omniabase_archive_v1.png)
+
+*OMNIABASE archive overview: example directions of structural analysis across hidden-dimension detection, entropy discrimination, regime detection, and bounded structural profiling.*
+
+---
+
 ## Public Entry
 
 If you want the shortest public path, start here:
@@ -209,13 +217,43 @@ Central question:
 
 ---
 
-## Public Proof Path
+## Minimal Executable Core
+
+For a minimal executable skeleton of the unified transformation -> alignment -> normalization -> measurement pipeline, see:
+
+- [examples/omniacore.py](./examples/omniacore.py)
+
+This file is not the final production engine.  
+It is a transparent prototype that shows the minimal operational shape of OMNIABASE/OMNIA convergence:
+
+```text
+object
+-> controlled transformations
+-> alignment
+-> normalization
+-> structural measurement
+
+Its role is narrow:
+
+make the core pipeline executable
+
+clarify the architectural separation
+
+expose the minimal shape of the framework in code
+
+
+It does not define the final metric theory.
+It does not replace specialized branch implementations.
+
+
+---
+
+Public Proof Path
 
 The ecosystem should be read as a chain, not as a pile of repositories.
 
 Shortest public proof path:
 
-```text
 observer-suspension
 -> OMNIABASE
 -> OMNIA
@@ -267,7 +305,7 @@ A newcomer should read the ecosystem in this order:
 2. FIRST_PROOF.md
 
 
-3. OMNIABASE_PUBLIC_DEMONSTRATION.md
+3. OMNIABASE Public Demonstration
 
 
 4. OMNIABASE_CANONICAL_DEMONSTRATION_v1.md
