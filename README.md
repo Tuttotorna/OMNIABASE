@@ -1,7 +1,6 @@
 # OMNIABASE
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19603445.svg)](https://doi.org/10.5281/zenodo.19603445)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19657833.svg)](https://doi.org/10.5281/zenodo.19657833)
 
 **Author:** Massimiliano Brighindi · `brighissimo@gmail.com`
 
