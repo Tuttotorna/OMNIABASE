@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omniabase-framework"
+version = "0.2.0"
+description = "Multi-base representation and structural observation framework."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Massimiliano Brighindi", email = "brighissimo@users.noreply.github.com" }
+]
+license = { file = "LICENSE" }
+keywords = ["omniabase", "representation", "multi-base", "invariance", "structural-measurement"]
+
+[project.urls]
+Repository = "https://github.com/Tuttotorna/OMNIABASE"
+DOI = "https://doi.org/10.5281/zenodo.19657833"
+
+[tool.setuptools]
+py-modules = []
