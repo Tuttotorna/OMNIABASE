@@ -35,6 +35,54 @@ Decision remains external.
 
 ---
 
+- [`docs/OMNIABASE_PUBLIC_POSITION.md`](docs/OMNIABASE_PUBLIC_POSITION.md)
+
+## Public position
+
+OMNIABASE public positioning is documented here:
+
+- [`docs/OMNIABASE_PUBLIC_POSITION.md`](docs/OMNIABASE_PUBLIC_POSITION.md)
+
+Core thesis:
+
+```text
+A number is not identical to its written representation.
+```
+
+Core question:
+
+```text
+What remains invariant when the same number is observed across many bases?
+```
+
+Core mathematical frame:
+
+```text
+n = sum_{i=0}^{k} d_i^(b) * b^i
+
+O(n) = { (b, digits^(b)(n)) | b >= 2 }
+
+P is base-invariant iff:
+for all b >= 2:
+  P(digits^(b)(n)) = constant
+```
+
+Core boundary:
+
+```text
+representation != number
+observation != essence
+measurement != inference != decision
+```
+
+OMNIABASE does not claim that base 10 is wrong.
+
+It treats base 10 as one observer frame among many.
+
+It measures what remains structurally stable across numerical representations.
+
+---
+
 ## Core idea
 
 A number is not exhausted by how humans usually write it.
