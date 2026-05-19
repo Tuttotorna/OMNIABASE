@@ -35,8 +35,6 @@ Decision remains external.
 
 ---
 
-- [`docs/OMNIABASE_PUBLIC_POSITION.md`](docs/OMNIABASE_PUBLIC_POSITION.md)
-
 ## Public position
 
 OMNIABASE public positioning is documented here:
@@ -80,7 +78,6 @@ OMNIABASE does not claim that base 10 is wrong.
 It treats base 10 as one observer frame among many.
 
 It measures what remains structurally stable across numerical representations.
-
 ---
 
 ## Core idea
