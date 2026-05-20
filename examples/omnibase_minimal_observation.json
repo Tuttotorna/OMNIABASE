@@ -1,0 +1,23 @@
+{
+  "case_id": "omnibase-minimal-observation-v0",
+  "purpose": "Demonstrate the OMNIABASE observation contract without claiming semantic truth.",
+  "boundary": "measurement != inference != decision",
+  "pipeline": [
+    "object",
+    "representation",
+    "base shift",
+    "observation",
+    "invariant residue"
+  ],
+  "object": "integer n",
+  "representations": [
+    "base-2",
+    "base-3",
+    "base-10",
+    "base-16"
+  ],
+  "observed_feature": "placeholder cross-representation feature",
+  "invariant_residue": "placeholder stable residue",
+  "result": "inconclusive",
+  "limitation": "This placeholder artifact defines the public observation shape. It is not a scientific result."
+}

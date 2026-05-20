@@ -1,284 +1,170 @@
 # OMNIABASE
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19657833.svg)](https://doi.org/10.5281/zenodo.19657833)
+**Representation invariance foundation.**
 
-**OMNIABASE** is the multi-base representation and structural observation layer of the MB-X.01 / OMNIA ecosystem.
+OMNIABASE is the representation layer of the MB-X.01 / OMNIA ecosystem.
 
-Its central point is simple:
+Its role is narrow:
 
-```text
-base 10 is a representation habit, not a law of number
-```
+    representation -> base shift -> observation -> invariant residue
 
-OMNIABASE studies what remains structurally stable when numbers, objects, or signals are observed across multiple representations.
+It asks one question:
 
-It is not a numerology system.
-It is not a truth oracle.
-It is not a semantic judge.
-It is not a decision engine.
+    what remains stable when the representation changes?
 
-Its role is representation-aware structural observation.
+OMNIABASE is not the ecosystem landing page.
 
-Core boundary:
+It is not the validation showroom.
 
-```text
-measurement != inference != decision
-```
+It is not the core OMNIA measurement engine.
 
-Core thesis:
+It is the foundation for observing representation-dependence before stronger structural measurement.
 
-```text
-Structural truth = invariance under transformation
-```
+Canonical boundary:
 
-Decision remains external.
+    measurement != inference != decision
 
 ---
 
-## Public position
+## Start here
 
-OMNIABASE public positioning is documented here:
+From a clean environment:
 
-- [`docs/OMNIABASE_PUBLIC_POSITION.md`](docs/OMNIABASE_PUBLIC_POSITION.md)
+    git clone https://github.com/Tuttotorna/OMNIABASE.git
+    cd OMNIABASE
+    python -m pip install -e .
+    pytest
 
-Core thesis:
+If example scripts are available, run the smallest demonstration after tests pass.
 
-```text
-A number is not identical to its written representation.
-```
+The goal is to see the representation path:
 
-Core question:
-
-```text
-What remains invariant when the same number is observed across many bases?
-```
-
-Core mathematical frame:
-
-```text
-n = sum_{i=0}^{k} d_i^(b) * b^i
-
-O(n) = { (b, digits^(b)(n)) | b >= 2 }
-
-P is base-invariant iff:
-for all b >= 2:
-  P(digits^(b)(n)) = constant
-```
-
-Core boundary:
-
-```text
-representation != number
-observation != essence
-measurement != inference != decision
-```
-
-OMNIABASE does not claim that base 10 is wrong.
-
-It treats base 10 as one observer frame among many.
-
-It measures what remains structurally stable across numerical representations.
----
-
-## Core idea
-
-A number is not exhausted by how humans usually write it.
-
-Humans normally see numbers in base 10.
-
-But base 10 is only one representation.
-
-OMNIABASE asks what changes, what remains, and what becomes visible when the same object is observed across many bases.
-
-The purpose is not to replace arithmetic.
-
-The purpose is to separate the number from the representation used to view it.
+    object -> representation -> base shift -> observation -> invariant residue
 
 ---
 
-## Minimal formalism
+## What OMNIABASE does
 
-For an integer `n`, its representation in base `b` is:
+OMNIABASE observes objects through multiple representations.
 
-```text
-n = sum_{i=0}^{k} d_i^(b) * b^i
+For numeric structures, this means refusing to privilege base 10 as the only observational frame.
 
-where:
-  b >= 2
-  d_i^(b) in {0, ..., b-1}
-```
+The public idea is simple:
 
-The multi-base observation of `n` is:
-
-```text
-O(n) = { d^(b)(n) | b >= 2 }
-```
-
-A property `P` is base-invariant iff:
-
-```text
-for all b >= 2:
-  P(d^(b)(n)) = constant
-```
-
-This is the base layer of OMNIABASE.
-
-Detailed formalism:
-
-- [`docs/FORMALISM.md`](docs/FORMALISM.md)
+    the symbol is not the number
+    the representation is not the object
+    what survives representation shift is structurally more interesting
 
 ---
 
-## What OMNIABASE measures
-
-OMNIABASE studies representation-dependent and representation-resistant structure.
-
-It can ask:
-
-- which patterns appear only in one base
-- which patterns survive across many bases
-- which structures are artifacts of notation
-- which structures are stable under recoding
-- which observations depend on a privileged representation
-- which properties remain invariant under transformation
-
-The output is structural evidence, not final truth.
-
----
-
-## What OMNIABASE is not
+## What OMNIABASE does not do
 
 OMNIABASE does not:
 
-- prove mystical properties of numbers
-- claim base 10 is wrong
-- claim all representations are equally useful
-- replace standard arithmetic
-- replace mathematical proof
-- infer semantic meaning
-- make final decisions
+- claim base 10 is special;
+- infer semantic truth;
+- decide correctness;
+- replace OMNIA;
+- replace OMNIA-VALIDATION;
+- prove metaphysical truth;
+- convert representation-stability into final decision.
 
-It treats base choice as an observation lens.
+OMNIABASE observes representation behavior.
 
----
-
-## Why this matters
-
-A pattern may look important in one representation and disappear in another.
-
-A structure may look accidental in one base and become stable across several bases.
-
-If a property survives representation changes, it has stronger structural status than a property visible only through one privileged notation.
-
-This is the operational reason for multi-base observation.
+Interpretation and decision remain external.
 
 ---
 
-## Repository type
+## Public mental model
 
-This repository is currently a conceptual, demonstration, and documentation repository.
-
-It contains foundation documents, public demonstrations, and a minimal example script.
-
-It is not a full Python package with a dedicated source module.
-
-The `pyproject.toml` exists for metadata and editable installation compatibility.
+    A number is not how humans write it.
+    A structure is not one representation.
+    OMNIABASE looks across representations and asks what remains.
 
 ---
 
-## Repository structure
+## Minimal formal base idea
 
-```text
-README.md                              public entrypoint
-FOUNDATIONS.md                         foundational notes
-ARCHITECTURE.md                        architecture notes
-LEXICON.md                             terminology
-OMNIABASE_MRT_v0.md                    multirepresentational test note
-OMNIABASE_MRT_v0_CASE_01.md            example case
-docs/                                  public demonstrations and proof notes
-examples/                              minimal demo material
-```
+For an integer n, a base-b representation can be written as:
+
+    n = sum_i d_i^(b) * b^i
+
+where:
+
+    b >= 2
+    0 <= d_i^(b) < b
+
+The multi-base observation family is:
+
+    O(n) = { representation of n in base b | b >= 2 }
+
+A property P is base-invariant when:
+
+    P(representation_b(n)) is stable across b
+
+This does not mean P is truth.
+
+It means P survived the declared representation shift.
 
 ---
 
-## Public entrypoints
+## OMNIABASE contract
 
-- [`docs/OMNIABASE_SCOPE.md`](docs/OMNIABASE_SCOPE.md)
-- [`docs/FORMALISM.md`](docs/FORMALISM.md)
-- [`docs/REPOSITORY_STATUS.md`](docs/REPOSITORY_STATUS.md)
-- [`docs/OMNIABASE_PUBLIC_DEMONSTRATION.md`](docs/OMNIABASE_PUBLIC_DEMONSTRATION.md)
-- [`docs/FIRST_PUBLIC_DEMONSTRATION.md`](docs/FIRST_PUBLIC_DEMONSTRATION.md)
+Every serious OMNIABASE observation should make clear:
+
+| Component | Meaning |
+|---|---|
+| object | What is being observed |
+| representation | Which representational frame is used |
+| base shift | What representation change is applied |
+| observation | What property, feature, or trace is extracted |
+| invariant residue | What remains stable across representations |
+| boundary | What the observation does and does not claim |
 
 ---
 
-## Relationship to OMNIA
+## Recommended reading order
 
-OMNIABASE is the representation layer.
-
-OMNIA is the structural measurement layer.
-
-OMNIA-INVARIANCE tests invariance and trajectory behavior.
-
-OMNIA-VALIDATION records evidence and reproducibility.
-
-```text
-OMNIABASE        = representation / multi-base observation
-OMNIA            = structural measurement
-OMNIA-INVARIANCE = invariance / trajectory-space analysis
-OMNIA-VALIDATION = evidence / reproducibility
-Decision          = external layer
-```
-
-The separation remains strict:
-
-```text
-measurement != inference != decision
-```
+1. [docs/QUICKSTART_OMNIABASE.md](docs/QUICKSTART_OMNIABASE.md)
+2. [docs/REPRESENTATION_OVERVIEW.md](docs/REPRESENTATION_OVERVIEW.md)
+3. [docs/BASE_INVARIANCE.md](docs/BASE_INVARIANCE.md)
+4. [docs/OBSERVATION_CONTRACT.md](docs/OBSERVATION_CONTRACT.md)
+5. [docs/BOUNDARY.md](docs/BOUNDARY.md)
+6. [docs/OMNIABASE_MANIFEST.json](docs/OMNIABASE_MANIFEST.json)
 
 ---
 
 ## Related repositories
 
-- lon-mirror: https://github.com/Tuttotorna/lon-mirror
-- OMNIA: https://github.com/Tuttotorna/OMNIA
-- OMNIA-INVARIANCE: https://github.com/Tuttotorna/OMNIA-INVARIANCE
-- OMNIA-VALIDATION: https://github.com/Tuttotorna/OMNIA-VALIDATION
-- omnia-limit: https://github.com/Tuttotorna/omnia-limit
-- OMNIAMIND: https://github.com/Tuttotorna/OMNIAMIND
+| Repository | Role |
+|---|---|
+| [lon-mirror](https://github.com/Tuttotorna/lon-mirror) | Canonical ecosystem entry point |
+| [OMNIA-VALIDATION](https://github.com/Tuttotorna/OMNIA-VALIDATION) | Public validation showroom |
+| [OMNIA](https://github.com/Tuttotorna/OMNIA) | Core structural measurement engine |
+| [OMNIA-RADAR](https://github.com/Tuttotorna/OMNIA-RADAR) | Structural signal detection layer |
+| [OMNIA-INVARIANCE](https://github.com/Tuttotorna/OMNIA-INVARIANCE) | Transformation and invariance layer |
+| [omnia-limit](https://github.com/Tuttotorna/omnia-limit) | Stop / continue boundary layer |
+| [OMNIA-CONSTANT](https://github.com/Tuttotorna/OMNIA-CONSTANT) | Stable-region falsification layer |
 
 ---
 
-## Citation
+## Ecosystem entry point
 
-If you reference this repository, use the archived Zenodo record:
+For the full ecosystem map, start here:
 
-```text
-DOI: 10.5281/zenodo.19657833
-https://doi.org/10.5281/zenodo.19657833
-```
+    https://github.com/Tuttotorna/lon-mirror
 
-Earlier archive record:
+For public validation artifacts, start here:
 
-```text
-10.5281/zenodo.19603445
-```
+    https://github.com/Tuttotorna/OMNIA-VALIDATION
 
-Citation metadata is available in:
+For core structural measurement, start here:
 
-- [`CITATION.cff`](CITATION.cff)
+    https://github.com/Tuttotorna/OMNIA
 
 ---
 
-## Summary
+## License
 
-OMNIABASE is a representation-aware structural observation framework.
+MIT.
 
-It studies what survives when observation changes.
-
-Its central rule is:
-
-```text
-base 10 is a representation habit, not a law of number
-Structural truth = invariance under transformation
-measurement != inference != decision
-```
