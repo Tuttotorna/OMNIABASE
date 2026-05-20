@@ -1,21 +1,5 @@
 # OMNIABASE
 
-## DOI
-
-[![DOI](https://zenodo.org/badge/1211833450.svg)](https://zenodo.org/badge/latestdoi/1211833450)
-
-Release DOI:
-
-    10.5281/zenodo.19657833
-
-Zenodo latest DOI link:
-
-    https://doi.org/10.5281/zenodo.19657833
-
-GitHub release:
-
-    https://github.com/Tuttotorna/OMNIABASE/releases/tag/v1.0.0
-
 **Representation invariance foundation.**
 
 OMNIABASE is the representation layer of the MB-X.01 / OMNIA ecosystem.
