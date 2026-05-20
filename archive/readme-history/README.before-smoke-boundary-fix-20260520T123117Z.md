@@ -164,18 +164,6 @@ For core structural measurement, start here:
 
 ---
 
-
-## Boundary terms
-
-    base 10 is a representation habit, not a law of number
-    Structural truth = invariance under transformation
-
-
-## Smoke-test required terms
-
-    not a truth oracle
-    Decision remains external
-
 ## License
 
 MIT.
