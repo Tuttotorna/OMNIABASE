@@ -1,16 +1,35 @@
+<!-- MB-X.01 LON RELEASE:START -->
+
+## MB-X.01 / L.O.N. release state
+
+Repository: Tuttotorna/OMNIABASE
+Release tag: v2026.05.21
+Release commit: 31a1380
+Release DOI: 10.5281/zenodo.20322682
+
+Boundary:
+
+measurement != validation
+validation != orchestration
+orchestration != decision
+decision != measurement
+
+<!-- MB-X.01 LON RELEASE:END -->
+
 # OMNIABASE
 
 <!-- ZENODO DOI:START -->
 
 ## DOI
 
-[![DOI](https://zenodo.org/badge/1211833450.svg)](https://zenodo.org/badge/latestdoi/1211833450)
+[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.20322682.svg)](https://doi.org/10.5281/zenodo.20322682)
 
 Zenodo DOI badge for this repository.
 
 Repository: Tuttotorna/OMNIABASE
 GitHub repository id: 1211833450
-Latest release DOI: pending Zenodo publication or resolved dynamically by Zenodo badge
+Release tag: v2026.05.21
+Latest release DOI: 10.5281/zenodo.20322682
 
 <!-- ZENODO DOI:END -->
 
