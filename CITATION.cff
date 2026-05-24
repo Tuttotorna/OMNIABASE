@@ -3,6 +3,10 @@ message: "If you use OMNIABASE or Omniabase Auditor, please cite this archived r
 title: "OMNIABASE: Many-Base Numerical Observation and Invariance Auditing"
 version: "0.2.0"
 date-released: "2026-05-24"
+doi: "10.5281/zenodo.20366410"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20366410"
 authors:
   - family-names: "Brighindi"
     given-names: "Massimiliano"

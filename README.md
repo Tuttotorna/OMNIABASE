@@ -2,6 +2,8 @@
 
 # OMNIABASE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20366410.svg)](https://doi.org/10.5281/zenodo.20366410)
+
 ## Concrete entrypoint: Omniabase Auditor
 
 This repository now has a direct operational tool:
@@ -190,8 +192,6 @@ decision != measurement
 
 ## DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.20322682.svg)](https://doi.org/10.5281/zenodo.20322682)
-
 Zenodo DOI badge for this repository.
 
 Repository: Tuttotorna/OMNIABASE
@@ -203,8 +203,6 @@ Latest release DOI: 10.5281/zenodo.20322682
 
 
 ## DOI
-
-[![DOI](https://zenodo.org/badge/1211833450.svg)](https://zenodo.org/badge/latestdoi/1211833450)
 
 Release DOI: [10.5281/zenodo.19657833](https://doi.org/10.5281/zenodo.19657833)
 
