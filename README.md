@@ -1,3 +1,171 @@
+<!-- OMNIABASE_AUDITOR_TOP_START -->
+
+# OMNIABASE
+
+## Concrete entrypoint: Omniabase Auditor
+
+This repository now has a direct operational tool:
+
+    python -m omniabase_auditor.cli --start 1 --end 1000 --bases 2:36 --out-dir report
+
+It solves a concrete problem:
+
+    given a number or a range of numbers,
+    observe each number across many bases,
+    measure what remains stable and what changes,
+    produce JSON/CSV/HTML reports,
+    and optionally fail CI when base-fragile numbers are detected.
+
+In short:
+
+    number -> many-base observation -> invariance report
+
+## What problem does it solve?
+
+Humans usually observe numbers through one privileged representation, often base 10.
+
+OMNIABASE turns this into a reproducible measurement problem:
+
+    What changes when the same number is observed across multiple bases?
+    Which digit-derived properties remain stable?
+    Which numbers are base-fragile?
+    Which numbers are unusually invariant?
+    Which numbers become structural hubs across base observations?
+
+The rest of this repository explains the theory and research path.
+
+The auditor is the practical entrypoint.
+
+## Install
+
+Clone the repository:
+
+    git clone https://github.com/Tuttotorna/OMNIABASE.git
+    cd OMNIABASE
+
+Install locally:
+
+    pip install -e .
+
+The auditor only uses the Python standard library.
+
+## Run
+
+Audit a range:
+
+    python -m omniabase_auditor.cli --start 1 --end 1000 --bases 2:36 --out-dir report
+
+Audit one number:
+
+    python -m omniabase_auditor.cli --number 255 --bases 2:36 --out-dir report_255
+
+Audit numbers from CSV:
+
+    python -m omniabase_auditor.cli --input examples/sample_numbers.csv --bases 2:36 --out-dir report_csv
+
+## Input
+
+The auditor accepts three input modes.
+
+Single number:
+
+    --number 255
+
+Range:
+
+    --start 1 --end 1000
+
+CSV file:
+
+    number
+    7
+    31
+    255
+
+Base range:
+
+    --bases 2:36
+
+Explicit bases:
+
+    --bases 2,3,5,8,10,16,36
+
+## Output
+
+The auditor writes:
+
+    report.json
+    report.csv
+    report.html
+    fragile_numbers.jsonl
+    invariant_numbers.jsonl
+    certificate.json
+
+Meaning:
+
+    report.json
+    Full structured many-base audit.
+
+    report.csv
+    Spreadsheet-friendly per-number summary.
+
+    report.html
+    Human-readable inspection report.
+
+    fragile_numbers.jsonl
+    One JSON object per base-fragile number.
+
+    invariant_numbers.jsonl
+    One JSON object per highly invariant number.
+
+    certificate.json
+    Reproducibility certificate with parameters and aggregate metrics.
+
+## CI gate
+
+The auditor can fail automatically when base-fragile numbers are detected:
+
+    python -m omniabase_auditor.cli --start 1 --end 1000 --bases 2:36 --out-dir report --fail-on-fragile
+
+Exit codes:
+
+    0 = audit completed, no blocking condition
+    2 = base-fragile numbers detected
+    3 = invalid input or measurement boundary crossed
+
+## What this is not
+
+This is not a proof system.
+
+It does not claim that base 10 is wrong.
+
+It does not replace arithmetic.
+
+It provides one concrete, reproducible operation:
+
+    observe numbers across bases
+    measure representation-dependent variation
+    report invariance and fragility
+    optionally fail CI
+
+## Why the rest of the repository still matters
+
+The rest of the repository documents the OMNIABASE idea:
+
+    base-invariance
+    representation shift
+    multi-base observation
+    non-privileged numerical representation
+    observer decentering in arithmetic notation
+
+The code above is the entrypoint.
+
+The repository below is the derivation path.
+
+<!-- OMNIABASE_AUDITOR_TOP_END -->
+
+---
+
 <!-- MB-X.01 LON RELEASE:START -->
 
 ## MB-X.01 / L.O.N. release state

@@ -5,3 +5,9 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+*.py[cod]
+ci_report/
+omniabase_report/
+omniabase_demo_report/
+omniabase_gate_report/
+report/
