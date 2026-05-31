@@ -410,3 +410,19 @@ Role document:
 
 - [Structural Observability Role](docs/STRUCTURAL_OBSERVABILITY_ROLE.md)
 <!-- STRUCTURAL_OBSERVABILITY_ROLE_END -->
+
+## Foundational Principle
+
+OMNIABASE is a numerical application of the L.O.N. Multi-Form Invariance Principle:
+
+> No single form is sovereign.
+
+In OMNIABASE, this becomes:
+
+> No numerical base is sovereign.
+
+A number is not identified with one representation. Its structure is studied through compatibility across base transformations.
+
+See:
+
+- https://github.com/Tuttotorna/lon-mirror/tree/main/foundation
