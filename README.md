@@ -426,3 +426,31 @@ A number is not identified with one representation. Its structure is studied thr
 See:
 
 - https://github.com/Tuttotorna/lon-mirror/tree/main/foundation
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_START -->
+
+## Citation and archival
+
+This repository is prepared for GitHub-Zenodo archival.
+
+Repository:
+https://github.com/Tuttotorna/OMNIABASE
+
+Latest GitHub release: v0.2.0 (https://github.com/Tuttotorna/OMNIABASE/releases/tag/v0.2.0)
+
+Detected Zenodo DOI(s):
+- https://doi.org/10.5281/zenodo.20366410
+- https://doi.org/10.5281/zenodo.20322682
+- https://doi.org/10.5281/zenodo.19657833
+- https://doi.org/10.5281/zenodo.20379374
+
+Metadata files used for archival/citation:
+
+- .zenodo.json
+- CITATION.cff
+
+Zenodo note:
+
+GitHub-Zenodo archiving works after the repository is enabled in Zenodo GitHub settings and a GitHub release is created.
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_END -->

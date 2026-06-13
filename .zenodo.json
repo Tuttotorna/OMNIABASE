@@ -1,0 +1,28 @@
+{
+  "title": "OMNIABASE: Omniabase Observational Mathematics Repository",
+  "upload_type": "software",
+  "description": "OMNIABASE is part of the Omniabase ecosystem, an observational framework for mapping structures, transformations, manifestations, and stable relations.",
+  "creators": [
+    {
+      "name": "Brighindi, Massimiliano",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "keywords": [
+    "Omniabase",
+    "observational mathematics",
+    "structural visibility",
+    "transformations",
+    "OMNIA"
+  ],
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Tuttotorna/OMNIABASE",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "license": "MIT"
+}

@@ -1,24 +1,11 @@
 cff-version: 1.2.0
-message: "If you use OMNIABASE or Omniabase Auditor, please cite this archived release."
-title: "OMNIABASE: Many-Base Numerical Observation and Invariance Auditing"
-version: "0.2.0"
-date-released: "2026-05-24"
-doi: "10.5281/zenodo.20366410"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.20366410"
+message: "If you use this software, please cite it using the metadata from this file."
+title: "OMNIABASE: Omniabase Observational Mathematics Repository"
 authors:
   - family-names: "Brighindi"
     given-names: "Massimiliano"
-repository-code: "https://github.com/Tuttotorna/OMNIABASE"
+    affiliation: "Independent researcher"
+version: "v0.2.0"
+date-released: 2026-06-13
 url: "https://github.com/Tuttotorna/OMNIABASE"
-license: "MIT"
-abstract: "OMNIABASE provides many-base numerical observation and a standalone Omniabase Auditor for measuring representation-dependent variation, invariance, fragility, and hub behavior across base representations. The tool produces reproducible JSON, CSV, HTML, JSONL, and certificate outputs. It is a measurement tool only: no arithmetic proof is claimed and no base is treated as privileged."
-keywords:
-  - "OMNIABASE"
-  - "base invariance"
-  - "many-base observation"
-  - "numerical representation"
-  - "structural measurement"
-  - "invariance auditing"
-  - "open source"
+type: software
