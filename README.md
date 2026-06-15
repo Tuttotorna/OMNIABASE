@@ -1,3 +1,43 @@
+<!-- INFINITY_FIRST_OMNIABASE_START -->
+## Infinity-First OMNIABASE
+
+OMNIABASE is not simply a comparison of many bases.
+
+It is the refusal of representational sovereignty.
+
+The central correction is:
+
+**No base is sovereign.**
+
+A base is valid as an access form.
+
+A base becomes structurally false when it is treated as autonomous, complete, natural, final, or total.
+
+OMNIABASE does not replace one sovereign base with another.
+
+It prevents every finite base from pretending to be the object it makes visible.
+
+The governing law is formalized here:
+
+[LAW OF TOTALITY](https://github.com/Tuttotorna/LAW-OF-TOTALITY)
+
+Public threshold release:
+
+[LAW OF TOTALITY v0.1.2](https://github.com/Tuttotorna/LAW-OF-TOTALITY/releases/tag/v0.1.2)
+
+DOI:
+
+[10.5281/zenodo.20700914](https://doi.org/10.5281/zenodo.20700914)
+
+Core document:
+
+[INFINITY-FIRST-OMNIABASE.md](INFINITY-FIRST-OMNIABASE.md)
+
+First applied case:
+
+[APPLIED-CASE-001-NO-BASE-IS-SOVEREIGN.md](APPLIED-CASE-001-NO-BASE-IS-SOVEREIGN.md)
+<!-- INFINITY_FIRST_OMNIABASE_END -->
+
 <!-- TOTALITY_FIELD_ALIGNMENT_START -->
 ## Totality Field Alignment
 
